@@ -3,38 +3,12 @@ const package = JSON.parse(fs.readFileSync('./package.json'));
 
 const { series, parallel, src, dest } = require('gulp');
 const jeditor = require("gulp-json-editor");
-const concat = require('gulp-concat');
-const del = require('delete');
+const zip = require('gulp-zip');
 
-function clean(cb) {
-  // body omitted
-  cb();
-}
-
-function cssTranspile(cb) {
-  // body omitted
-  cb();
-}
-
-function cssMinify(cb) {
-  // body omitted
-  cb();
-}
-
-function jsTranspile(cb) {
-  // body omitted
-  cb();
-}
-
-function copyIcons() {
-    return src("./src/icons/*.*")
-    .pipe(dest("./build/chrome/icons"))
-    .pipe(dest("./build/firefox/icons"));
-}
-
-function jsMinify(cb) {
-  // body omitted
-  cb();
+function copySrc() {
+    return src(["./src/*/**", "./*.md", "./LICENSE"])
+    .pipe(dest("./build/chrome/"))
+    .pipe(dest("./build/firefox/"));
 }
 
 function publish() {
@@ -46,7 +20,8 @@ function publish() {
     // the second argument is passed to js-beautify as its option
     {
     'indent_char': ' ',
-    'indent_size': 2
+    'indent_size': 2,
+	'brace-style': 'end-expand'
     }))
     .pipe(dest("./build/chrome"))
     .pipe(jeditor({
@@ -65,6 +40,18 @@ function publish() {
     .pipe(dest("./build/firefox"));
 }
 
-exports.build = parallel(copyIcons, publish);
+function zipChrome() {
+	return src('./build/chrome/*')
+			.pipe(zip('NZBDonkey v' + package.version + '_Chrome.zip'))
+			.pipe(dest('dist/v' + package.version));
+}
+
+function zipFF() {
+	return src('./build/firefox/*')
+			.pipe(zip('NZBDonkey v' + package.version + '_FF.zip'))
+			.pipe(dest('dist/v' + package.version));
+}
+
+exports.build = series(parallel(copySrc, publish), parallel(zipChrome, zipFF));
 
 
