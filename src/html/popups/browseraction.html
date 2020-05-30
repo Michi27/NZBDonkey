@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+<style>
+body, input, select, button {
+    font-size: 0.8rem;
+}
+.flex_container {
+    display: flex;
+}
+
+.flex_row {
+    flex-direction: row;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+.scroll {
+    overflow: auto;
+}
+
+.flex_max {
+    flex: 1 1 0;
+}
+
+.flex_min {
+    flex: 0 0 auto;
+}
+.hidden {
+    display: none;
+}
+.log-info {
+    color: #818182;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+}
+.log-warn {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+.log-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+</style>
+    <title></title>
+</head>
+<body class="flex_container flex_row flex_max p-3">
+<div id="container" class="container-fluid flex_container flex_column flex_max">
+    <div class="row flex_min mx-0 mb-2 py-2 border-bottom">
+        <div class="col px-0">
+            <img src="/icons/NZBDonkey_32.png" class="img-fluid float-right"/>
+            <h4 id="title" class="m-0" data-message="popupDownloadHistory"></h4>
+        </div>
+    </div>    
+    <div id="downloadHistroy" class="row flex_max m-0 scroll">
+        <div id="Content" class="container-fluid p-0">
+            <div id="NZBDonkey_Logs" class="row mx-0 my-2">
+                <div class="col-1 pl-0">
+                    <div id="NZBDonkey_ID" class="float-left text-white d-flex align-items-center justify-content-center font-weight-bold" style="font-size: 1.8rem; width: 48px; height: 48px; background-image: url(/icons/NZBDonkey_48.png); text-shadow: 1px 1px 10px #1374F9">
+                        0
+                    </div>
+                    <button id="log-button" disabled="true" id="log" type="button" class="btn btn-outline-primary btn-sm mt-1 py-1" style="width: 48px; font-size: 0.6rem; line-height: 0.8rem;">Details</button>
+                </div>
+                <div class="col px-0">
+                    <div class="row m-0">
+                        <div class="col-2 px-0 text-right">
+                            <span data-message="extPopupTitle"></span>:
+                        </div>
+                        <div id="NZBDonkey_Title" class="col" style="overflow: hidden">
+                            <span data-message="extPopupNoHistoryMessage"></span>
+                        </div>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-2 px-0 text-right">
+                            <span data-message="extPopupOrigin"></span>:
+                        </div>
+                        <div id="NZBDonkey_Origin" class="col" style="overflow: hidden">
+                            
+                        </div>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-2 px-0 text-right">
+                            <span data-message="extPopupCategory"></span>:
+                        </div>
+                        <div id="NZBDonkey_Category" class="col" style="overflow: hidden">
+                            
+                        </div>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-2 px-0 text-right">
+                            <span data-message="extPopupStatus"></span>:
+                        </div>
+                        <div id="NZBDonkey_Status" class="col" style="overflow: hidden">
+                            
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>    
+    <div id="debugLog" class="row flex_max m-0 scroll hidden">
+        <div id="debugLogContent" class="container-fluid w-100 p-0">
+            <div id="NZBDonkey_debugLog" class="row m-0">
+                <div id="logEntry" class="col px-0">
+                </div>
+            </div>            
+        </div>
+    </div>
+    <div class="row flex_min border-top m-0 mt-2 py-2">
+        <div class="col px-0">
+            <div class="row m-0">
+                <div id="popupButtons" class="col p-0 d-flex justify-content-between">
+                    <button id="openSettings" type="button" class="btn btn-outline-primary" style="font-size: 0.8rem" data-message="settings"></button>
+                    <button id="showDebugLog" type="button" class="btn btn-outline-primary" style="font-size: 0.8rem" data-message="extPopupShowDebugLog"></button>
+                    <button id="closePopup" type="button" tabindex="1" class="btn btn-primary" style="font-size: 0.8rem" data-message="close"></button>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+
+<!-- JavaScript -->
+<script src="/js/include/jquery.js"></script>
+<script src="/js/include/bootstrap.js"></script>
+<script src="/js/include/browser-polyfill.js"></script>
+<script src="/js/popups/browseraction.js"></script>
+</body>
+</html>

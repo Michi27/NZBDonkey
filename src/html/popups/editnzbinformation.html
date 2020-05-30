@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/options.css" />
+    <link rel="stylesheet" href="/css/jquery-ui.css" />
+    <title data-message="extName"></title>
+<style>
+  .ui-autocomplete {
+    max-height: 110px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+</style>
+</head>
+<body class="flex_container flex_column px-2 pt-2 pb-2">
+<div class="container-fluid flex_container flex_column flex_max border border-primary rounded">
+    <div class="row flex_min py-2 bg-primary">
+        <div class="col text-white">
+            <img src="/icons/NZBDonkey_32.png" class="img-fluid float-right"/>
+            <h4 class=" m-0" id="editPopupTitle" data-message="editPopupTitle"></h4>
+        </div>
+    </div>    
+    <div id="message" class="row flex_min pt-3">
+        <div class="col" id="editPopupMessage" data-message="editPopupMessage"></div>
+    </div>
+    <div id="title" class="row flex_min pt-3">
+        <div class="form-group col">
+            <label for="editPopupNZBTitle" class="font-weight-bold" data-message="title"></label>
+            <input id="editPopupNZBTitle" type="text" class="form-control" value="">
+        </div>
+    </div>
+    <div id="password" class="row flex_min">
+        <div class="form-group col">
+            <label for="editPopupNZBPassword" class="font-weight-bold" data-message="password"></label>
+            <input id="editPopupNZBPassword" type="text" class="form-control" value="">
+        </div>
+    </div>
+    <div id="category" class="row flex_max">
+        <div class="form-group col">
+            <label for="editPopupNZBCategory" class="font-weight-bold" data-message="category"></label>    
+            <input id="editPopupNZBCategory" class="form-control" value="" />
+        </div>
+    </div>    
+    <div class="row flex_min border-top border-primary py-3 mt-3">
+        <div class="col text-right">
+            <button id="cancel-button" class="btn btn-outline-primary" value="false" data-message="cancel"></button>
+            <button id="submit-button" class="btn btn-primary" value="submit"  data-message="editPopupSendToTarget"></button>
+        </div>
+    </div>
+</div>
+<!-- JavaScript -->
+<script src="/js/include/jquery.js"></script>
+<script src="/js/include/jquery-ui.js"></script>
+<script src="/js/include/bootstrap.js"></script>
+<script src="/js/popups/editnzbinformation.js"></script>
+</body>
+</html>

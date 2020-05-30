@@ -1,3 +1,10 @@
+#### v0.8.0
+* New function: Option to edit the title, password and group information of intercepted downloads befor sending the NZB file to the NZB file target
+* Improvement: German translation is almost complete now
+* Improvement: Increased time out limit for pushing the NZB files to the NZB file targets
+* Improvement: Better error handling when connecting to NZBGet
+* Bug-fix: Fixed an error which caused only categories 1-9 to be shown when getting the categories from NZBGet
+
 #### v0.7.3
 * Bug fix: Fixed NZBKing settings due to changes in API
 
@@ -12,7 +19,7 @@
 * Bug fix: Fixed error in AnalyzeURL function if parameters are undefined
 * Bug fix: Improved starting routine to avoid the settings to be loaded too fast resulting in being undefined
 * Improvement: Added "file" as additional keyword for the header information in the function to analyze the selected text
-* Other: Added some credits on the about page (I actually figured out the NZBKing fix by myself, without spying anyone's source code and my solution is much simpler. Only because a little birdie told me, I eventually got the hidden message anyway. Next time just ask me directly...)
+* Other: Added some credits on the about page
 
 #### v0.7.0
 * New function: Added popup window with download history and debug log
@@ -23,10 +30,10 @@
 * Other: u4a is supported again (let's make peace to the world)
 
 #### v0.6.4
-* Bug fixes: Replace plus signs (+) with spaces (%20) before URIdecoding the query parameters of the nzblnk
+* Bug fix: replace "+" signs in URI parameters with spaces (%20) before URI-decoding the parameters
 
 #### v0.6.3
-* NZBDonkey is no longer working on certain domains
+* Removed support for u4a
 
 #### v0.6.2
 * Bug fixes: Bug fix for a stupid bug causing the script to stop silently if "do not use categories" is selected.

@@ -1,0 +1,1110 @@
+{
+  "title": {
+    "description": "Title",
+    "message": "Title"
+  },
+  "synology": {
+    "description": "Local name of Synology DownloadStation",
+    "message": "Synology DownloadStation"
+  },
+  "success": {
+    "description": "Success text e.g. for buttons",
+    "message": "Success"
+  },
+  "settings": {
+    "description": "Settings text e.g. for buttons",
+    "message": "Settings"
+  },
+  "select": {
+    "description": "Select text e.g. for buttons",
+    "message": "Select"
+  },
+  "sabnzbd": {
+    "description": "Local name of SABnzbd",
+    "message": "SABnzbd"
+  },
+  "required": {
+    "description": "Hint message for required information",
+    "message": "required"
+  },
+  "premiumize": {
+    "description": "Local name of premiumize.me",
+    "message": "premiumize.me"
+  },
+  "popupDownloadHistory": {
+    "description": "Popup window title",
+    "message": "Download history"
+  },
+  "password": {
+    "description": "Password",
+    "message": "Password"
+  },
+  "nzbget": {
+    "description": "Local name of NZBGet",
+    "message": "NZBGet"
+  },
+  "extSlogan": {
+    "description": "Extension slogan/short description",
+    "message": "The ultimate NZB file downloader addon"
+  },
+  "extSettingsTitle": {
+    "description": "Settings page title",
+    "message": "NZBDonkey Settings"
+  },
+  "extSettingsTestButtonTesting": {
+    "description": "Test connection button text while testing",
+    "message": "Testing Connection..."
+  },
+  "extSettingsTestButton": {
+    "description": "Test connection button text",
+    "message": "Test Connection"
+  },
+  "extSettingsSynologyTitle": {
+    "description": "Synology settings title",
+    "message": "Synology DownloadStation Settings"
+  },
+  "extSettingsSynologyLink": {
+    "description": "Synology settings link title",
+    "message": "Synology DS"
+  },
+  "extSettingsSearchEnginesTitle": {
+    "description": "Search engines settings title",
+    "message": "NZB Search Engines Settings"
+  },
+  "extSettingsSearchEnginesLink": {
+    "description": "Search engines settings link title",
+    "message": "NZB Search Engines"
+  },
+  "extSettingsSaveMessage": {
+    "description": "Settings saved message",
+    "message": "Settings saved!"
+  },
+  "extSettingsSaveButton": {
+    "description": "Save settings button text",
+    "message": "Save Settings"
+  },
+  "extSettingsSABnzbdTitle": {
+    "description": "SABnzbd settings title",
+    "message": "SABnzbd Settings"
+  },
+  "extSettingsSABnzbdLink": {
+    "description": "SABnzbd settings link title",
+    "message": "SABnzbd"
+  },
+  "extSettingsResetWarningMessage": {
+    "description": "Reset settings warning message",
+    "message": "All settings will be erased and reverted to the default values!<br />This will also delete all <strong>custom settings</strong> (NZB search engines and NZB download interception domains)!"
+  },
+  "extSettingsResetButton": {
+    "description": "Reset settings button text",
+    "message": "Reset Settings"
+  },
+  "extSettingsPremiumizeTitle": {
+    "description": "Premiumize settings title",
+    "message": "premiumize.me Settings"
+  },
+  "extSettingsPremiumizeLink": {
+    "description": "Premiumize settings link title",
+    "message": "premiumize.me"
+  },
+  "extSettingsPremiumizeAdvert": {
+    "description": "Premiumize advert text",
+    "message": "Set up new premiumize.me account with 15 days bonus premium status with the following link:"
+  },
+  "extSettingsNZBInterceptionTitle": {
+    "description": "NZB download interception settings title",
+    "message": "NZB Download Interception Settings"
+  },
+  "extSettingsNZBInterceptionLink": {
+    "description": "NZB download interception settings link title",
+    "message": "NZB Download Interception"
+  },
+  "extSettingsNZBGetTitle": {
+    "description": "NZBGet settings title",
+    "message": "NZBGet Settings"
+  },
+  "extSettingsNZBGetLink": {
+    "description": "NZBGet settings link title",
+    "message": "NZBGet"
+  },
+  "extSettingsLoadingMessage": {
+    "description": "Settings page loading message",
+    "message": "Loading Settings..."
+  },
+  "extSettingsLoadingErrorMessage": {
+    "description": "Settings page loading error message",
+    "message": "Error while loading settings"
+  },
+  "extSettingsGeneralTitle": {
+    "description": "General settings title",
+    "message": "General Settings"
+  },
+  "extSettingsGeneralLink": {
+    "description": "General settings link title",
+    "message": "General"
+  },
+  "extSettingsDownloadTitle": {
+    "description": "Download settings title",
+    "message": "Download Settings"
+  },
+  "extSettingsDownloadLink": {
+    "description": "Download settings link title",
+    "message": "Download"
+  },
+  "extSettingsCategoryButton": {
+    "description": "Category test button text",
+    "message": "Show Categories"
+  },
+  "extSettingsCategoriesTitle": {
+    "description": "Categories settings title",
+    "message": "Categories Settings"
+  },
+  "extSettingsCategoriesLink": {
+    "description": "Categories settings link title",
+    "message": "Categories"
+  },
+  "extPopupTitle": {
+    "description": "Popup window NZB name header",
+    "message": "Title"
+  },
+  "extPopupStatus": {
+    "description": "Popup window status header",
+    "message": "Status"
+  },
+  "extPopupOrigin": {
+    "description": "Popup window origin header",
+    "message": "Origin"
+  },
+  "extPopupNoHistoryMessage": {
+    "description": "Popup window message if no historie is available",
+    "message": "No NZB download historie available"
+  },
+  "extPopupCategory": {
+    "description": "Popup window category header",
+    "message": "Category"
+  },
+  "extPopupShowDebugLog": {
+    "description": "Popup window show debug log button text",
+    "message": "Show Debug Log"
+  },
+  "extPopupShowDownloadHistory": {
+    "description": "Popup window show download history button text",
+    "message": "Show Download History"
+  },
+  "extName": {
+    "description": "Extension name",
+    "message": "NZBDonkey"
+  },
+  "extNZBTitle": {
+    "description": "NZB Title",
+    "message": "Name"
+  },
+  "extNZBSelectedText": {
+    "description": "Selected Text",
+    "message": "Selected text"
+  },
+  "extNZBPassword": {
+    "description": "NZB Passwort",
+    "message": "Password"
+  },
+  "extNZBHeader": {
+    "description": "NZB header",
+    "message": "Header"
+  },
+  "extNZBGetNZBFile": {
+    "description": "Get NZB File text e.g. for button or menu",
+    "message": "Get NZB file"
+  },
+  "extChangeLogTitle": {
+    "description": "Change log title",
+    "message": "Change Log"
+  },
+  "extChangeLogLoadingErrorMessage": {
+    "description": "Change log loading error message",
+    "message": "Error: Unable to load change log!"
+  },
+  "extChangeLogLink": {
+    "description": "Change log link title",
+    "message": "Change Log"
+  },
+  "extAboutTitle": {
+    "description": "About title",
+    "message": "About"
+  },
+  "extAboutSupport": {
+    "description": "GitHub support infomation",
+    "message": "For support please visit the NZBDonkey support forum on fileleechers.info or open an \"issue\" on GitHub."
+  },
+  "extAboutLink": {
+    "description": "About link title",
+    "message": "About"
+  },
+  "extAboutLicenseTitle": {
+    "description": "License title",
+    "message": "Provided for free under the following MIT license"
+  },
+  "extAboutLicense": {
+    "description": "MIT License",
+    "message": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br />\n<br />\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br />\n<br />\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "extAboutCredits": {
+    "description": "Credit infomation",
+    "message": "The NZBDonkey makes use of the NZBlnk URI scheme and was inspired by the NZBMonkey, the reference implementation on how to handle a NZBlnk link."
+  },
+  "error": {
+    "description": "Error text e.g. for buttons",
+    "message": "Error"
+  },
+  "unknownError": {
+    "description": "Error text for unknown error",
+    "message": "An unknown error occured"
+  },
+  "editPopupTitle": {
+    "description": "Titel for Pop-up window with the editable information for title, password and category",
+    "message": "NZB download interception"
+  },
+  "editPopupMessage": {
+    "description": "Message for Pop-up window with the editable information for title, password and category",
+    "message": "NZBDonkey has intercepted the download of the following NZB file:"
+  },
+  "editPopupSendToTarget": {
+    "description": "Button text for send to target button",
+    "message": "Send to destination"
+  },
+  "close": {
+    "description": "Close text e.g. for buttons",
+    "message": "Close"
+  },
+  "caution": {
+    "description": "Caution text e.g. for buttons",
+    "message": "Caution"
+  },
+  "categorySelectionNoCategory": {
+    "description": "Category selection name for no category",
+    "message": "no category"
+  },
+  "categorySelectionMessage": {
+    "description": "Category selection message",
+    "message": "Please select the category for"
+  },
+  "categorySelection": {
+    "description": "Category selection title",
+    "message": "Category Selection"
+  },
+  "category": {
+    "description": "Category",
+    "message": "Category"
+  },
+  "cancel": {
+    "description": "Cancel text e.g. for buttons",
+    "message": "Cancel"
+  },
+  "SettingsTargetUsername": {
+    "description": "Target settings",
+    "message": "Username"
+  },
+  "SettingsTargetSynologyUsernameDesc": {
+    "description": "Target settings",
+    "message": "This user needs to have sufficient rights to use the DownloadStation"
+  },
+  "SettingsTargetSynologyReverseProxyDesc": {
+    "description": "Target settings",
+    "message": "e.g. \"/Diskstation\""
+  },
+  "SettingsTargetSynologyPortDesc": {
+    "description": "Target settings",
+    "message": "usually 5000 for http and 5001 for https connection"
+  },
+  "SettingsTargetSABnzbdReverseProxyDesc": {
+    "description": "Target settings",
+    "message": "e.g. \"/SABnzbd\""
+  },
+  "SettingsTargetSABnzbdPortDesc": {
+    "description": "Target settings",
+    "message": "usually 8080 for http connection"
+  },
+  "SettingsTargetSABnzbdAPIKeyDesc": {
+    "description": "Target settings",
+    "message": "if you want to use manual category selection you must provide the SABnzbd API Key"
+  },
+  "SettingsTargetSABnzbdAPIKey": {
+    "description": "Target settings",
+    "message": "API or NZB key*"
+  },
+  "SettingsTargetReverseProxy": {
+    "description": "Target settings",
+    "message": "Reverse proxy path"
+  },
+  "SettingsTargetPremiumizePINDesc": {
+    "description": "Target settings",
+    "message": "can be found on your premiumize.me account page"
+  },
+  "SettingsTargetPremiumizePIN": {
+    "description": "Target settings",
+    "message": "API Key"
+  },
+  "SettingsTargetPremiumizeIDDesc": {
+    "description": "Target settings",
+    "message": "can be found on your premiumize.me account page"
+  },
+  "SettingsTargetPremiumizeID": {
+    "description": "Target settings",
+    "message": "Customer ID"
+  },
+  "SettingsTargetPort": {
+    "description": "Target settings",
+    "message": "Port"
+  },
+  "SettingsTargetPassword": {
+    "description": "Target settings",
+    "message": "Password"
+  },
+  "SettingsTargetNZBGetReverseProxyDesc": {
+    "description": "Target settings",
+    "message": "e.g. \"/NZBGet\""
+  },
+  "SettingsTargetNZBGetPortDesc": {
+    "description": "Target settings",
+    "message": "usually 6789 for http connection"
+  },
+  "SettingsTargetHostNameDesc": {
+    "description": "Target settings",
+    "message": "domain name or ip address"
+  },
+  "SettingsTargetHostName": {
+    "description": "Target settings",
+    "message": "Host name"
+  },
+  "SettingsTargetHTTPUsername": {
+    "description": "Target settings",
+    "message": "Basic HTTP Authentication Username"
+  },
+  "SettingsTargetHTTPPassword": {
+    "description": "Target settings",
+    "message": "Basic HTTP Authentication Password"
+  },
+  "SettingsTargetConnectionScheme": {
+    "description": "Target settings",
+    "message": "Connection scheme"
+  },
+  "SettingsTargetAdvancedSettingsDesc": {
+    "description": "Target settings",
+    "message": "These settings are only needed in special circumstances, e.g. if your server is behind a reverse proxy."
+  },
+  "SettingsTargetAdvancedSettingsShow": {
+    "description": "Target settings",
+    "message": "Show advanced settings"
+  },
+  "SettingsTargetAdvancedSettings": {
+    "description": "Target settings",
+    "message": "Advanced Settings"
+  },
+  "SettingsTargetAddPausedTitle": {
+    "description": "Target settings",
+    "message": "Add in pause mode"
+  },
+  "SettingsTargetAddPaused": {
+    "description": "Target settings",
+    "message": "add as paused"
+  },
+  "SettingsProcessingTitle": {
+    "description": "Processing settings title",
+    "message": "NZB File Processing Settings"
+  },
+  "SettingsProcessingLink": {
+    "description": "Processing settings link title",
+    "message": "NZB File Processing"
+  },
+  "SettingsNZBTargetTitle": {
+    "description": "NZBTarget settings title",
+    "message": "NZB File Destination Settings"
+  },
+  "SettingsNZBTargetSubTitle": {
+    "description": "NZBTarget settings sub title",
+    "message": "Destination for the NZB file"
+  },
+  "SettingsNZBTargetSendTo": {
+    "description": "NZBTarget settings send to description",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGet"
+      }
+    },
+    "message": "send to $TARGET$"
+  },
+  "SettingsNZBTargetLink": {
+    "description": "NZBTarget settings link title",
+    "message": "NZB File Destination"
+  },
+  "SettingsNZBTargetDownload": {
+    "description": "NZBTarget settings download description",
+    "message": "save to the browser's default download folder"
+  },
+  "SettingsNZBFileprocessingTitle": {
+    "description": "NZB file processing settings title",
+    "message": "NZB file processing"
+  },
+  "SettingsNZBFileprocessingMetadataTitle": {
+    "description": "NZB file processing settings",
+    "message": "add the title meta tag to the NZB file"
+  },
+  "SettingsNZBFileprocessingMetadataPassword": {
+    "description": "NZB file processing settings",
+    "message": "add the password meta tag to the NZB file"
+  },
+  "SettingsNZBFileprocessingMetadataCategory": {
+    "description": "NZB file processing settings",
+    "message": "add the category meta tag to the NZB file"
+  },
+  "SettingsNZBFileprocessingFilenameSpaces": {
+    "description": "NZB file processing settings",
+    "message": "convert all periods to spaces (NZB.file.name -> NZB file name)"
+  },
+  "SettingsNZBFileprocessingFilenamePeriods": {
+    "description": "NZB file processing settings",
+    "message": "convert all spaces to periods (NZB file name -> NZB.file.name)"
+  },
+  "SettingsNZBFileprocessingFilename": {
+    "description": "NZB file processing settings",
+    "message": "process the NZB file name"
+  },
+  "SettingsNZBFileCompletenessTitle": {
+    "description": "NZB file completeness settings title",
+    "message": "NZB file completness check"
+  },
+  "SettingsNZBFileCompletenessSegmentCountThreshold": {
+    "description": "NZB file completeness settings",
+    "message": "Threshold for allowed missing segments"
+  },
+  "SettingsNZBFileCompletenessSegmentCountDesc": {
+    "description": "NZB file completeness settings",
+    "message": "NZB files with missing segments above this threshold will be rejected."
+  },
+  "SettingsNZBFileCompletenessSegmentCount": {
+    "description": "NZB file completeness settings",
+    "message": "check segment count completeness"
+  },
+  "SettingsNZBFileCompletenessFileCountThreshold": {
+    "description": "NZB file completeness settings",
+    "message": "Threshold for allowed missing files"
+  },
+  "SettingsNZBFileCompletenessFileCountDesc": {
+    "description": "NZB file completeness settings",
+    "message": "NZB files with missing files above this threshold will be rejected."
+  },
+  "SettingsNZBFileCompletenessFileCount": {
+    "description": "NZB file completeness settings",
+    "message": "check file count completeness"
+  },
+  "SettingsGeneralNotificationsTitle": {
+    "description": "Notifications settings title",
+    "message": "Notifications"
+  },
+  "SettingsGeneralNotificationsSuccess": {
+    "description": "Notifications settings sucess & error",
+    "message": "only show success and error messages"
+  },
+  "SettingsGeneralNotificationsError": {
+    "description": "Notifications settings error",
+    "message": "only show error messages"
+  },
+  "SettingsGeneralNotificationsAll": {
+    "description": "Notifications settings all",
+    "message": "show all notifications"
+  },
+  "SettingsGeneralNotifications": {
+    "description": "Notifications settings",
+    "message": "Notifications to show"
+  },
+  "SettingsGeneralNZBlnkTitle": {
+    "description": "NZBlnk settings link title",
+    "message": "NZBlnk link"
+  },
+  "SettingsGeneralNZBlnkDesc": {
+    "description": "NZBlnk settings description",
+    "message": "If activated, NZBDonkey will catch and handle left mouse clicks on a NZBlnk link."
+  },
+  "SettingsGeneralNZBlnk": {
+    "description": "NZBlnk settings",
+    "message": "Catch left mous clicks on NZBlnk links"
+  },
+  "SettingsGeneralDebugModeTitle": {
+    "description": "Debug mode settings title",
+    "message": "Debug Mode"
+  },
+  "SettingsGeneralDebugModeDesc": {
+    "description": "Debug mode settings description",
+    "message": "If activated, NZBDonkey will issue debug information in the console."
+  },
+  "SettingsGeneralDebugMode": {
+    "description": "Debug mode settings",
+    "message": "Activate debug mode"
+  },
+  "SettingsDownloadSaveAsWarning": {
+    "description": "Download settings",
+    "message": "due to a bug in Chrome, silent download will only work if Chrome setting \"Ask where to save each file before downloading\" is disabled."
+  },
+  "SettingsDownloadSaveAsTitle": {
+    "description": "Download settings",
+    "message": "\"Save as...\" dialog"
+  },
+  "SettingsDownloadSaveAsDesc2": {
+    "description": "Download settings",
+    "message": "Leave disabled if the NZB files should be automatically and silently saved in the default download folder."
+  },
+  "SettingsDownloadSaveAsDesc1": {
+    "description": "Download settings",
+    "message": "If activated, a \"Save As...\" dialog will appear to select the folder where the NZB file should be saved."
+  },
+  "SettingsDownloadSaveAs": {
+    "description": "Download settings",
+    "message": "use \"Save as...\" dialog"
+  },
+  "SettingsDownloadFolderWarning": {
+    "description": "Download settings",
+    "message": "Do not use an absolute path! Only enter a <u>relative path</u> within your browsers default download folder! Do not add leading or trailing backslashes!"
+  },
+  "SettingsDownloadFolderDesc": {
+    "description": "Download settings",
+    "message": "Leave empty if you would like to save the NZB files directly in your browsers default download folder or enter the name of a subfolder within your browsers default download folder where you would like to save the NZB files.\nThe subfolder will be created if it does not yet exist.\n"
+  },
+  "SettingsDownloadFolder": {
+    "description": "Download settings",
+    "message": "Subfolder for saving the NZB files"
+  },
+  "SettingsDownloadCategorySubFoldersTitle": {
+    "description": "Download settings",
+    "message": "Category subfolders"
+  },
+  "SettingsDownloadCategorySubFoldersDesc": {
+    "description": "Download settings",
+    "message": "The NZB files will be stored in a corresponding subfolder according to their category.\nRequires the category function to be activated. The category subfolders are created if they do not yet exist."
+  },
+  "SettingsDownloadCategorySubFolders": {
+    "description": "Download settings",
+    "message": "use category subfolders"
+  },
+  "SettingsCategoriesTypeNoCategory": {
+    "description": "Category settings",
+    "message": "skip assignment of the category"
+  },
+  "SettingsCategoriesTypeManualTypeFromTargetWarning1": {
+    "description": "Category settings",
+    "message": "This NZB file destination does not provide categories for manual category selection.<br />The manual category selection setting was therefore set to \"Use custom categories\"."
+  },
+  "SettingsCategoriesTypeManualTypeFromTargetWarning2": {
+    "description": "Category settings",
+    "message": "This option only works with NZBGet or SABnzbd as NZB file destination.<br />Please set a supported NZB file destination first."
+  },
+  "SettingsCategoriesTypeManualTypeFromTargetDesc": {
+    "description": "Category settings",
+    "message": "manual category selection only works with SABnzbd if the SABnzbd API Key is provided"
+  },
+  "SettingsCategoriesTypeManualTypeFromTarget": {
+    "description": "Category settings",
+    "message": "Use the categories from the NZB file destination (only works with NZBGet and SABnzbd*)"
+  },
+  "SettingsCategoriesTypeManualTypeCustomTitle": {
+    "description": "Category settings",
+    "message": "Custom Categories"
+  },
+  "SettingsCategoriesTypeManualTypeCustom": {
+    "description": "Category settings",
+    "message": "Use custom categories"
+  },
+  "SettingsCategoriesTypeManualType": {
+    "description": "Category settings",
+    "message": "Type of manual category selection"
+  },
+  "SettingsCategoriesTypeManualTitle": {
+    "description": "Category settings",
+    "message": "Manual category assignment"
+  },
+  "SettingsCategoriesTypeManualDesc": {
+    "description": "Category settings",
+    "message": "A pop-up window will be presented for each NZB file to choose the category."
+  },
+  "SettingsCategoriesTypeManual": {
+    "description": "Category settings",
+    "message": "manual assignment of the category"
+  },
+  "SettingsCategoriesTypeDefaultTitle": {
+    "description": "Category settings",
+    "message": "Default category"
+  },
+  "SettingsCategoriesTypeDefaultDesc": {
+    "description": "Category settings",
+    "message": "Enter the name of the default category to be used for all NZB files."
+  },
+  "SettingsCategoriesTypeDefault": {
+    "description": "Category settings",
+    "message": "assign a default category"
+  },
+  "SettingsCategoriesTypeAutomaticTitle": {
+    "description": "Category settings",
+    "message": "Automatic category assignment"
+  },
+  "SettingsCategoriesTypeAutomaticRegex": {
+    "description": "Category settings",
+    "message": "Regex expression"
+  },
+  "SettingsCategoriesTypeAutomaticName": {
+    "description": "Category settings",
+    "message": "Category name"
+  },
+  "SettingsCategoriesTypeAutomaticFallbackTitle": {
+    "description": "Category settings",
+    "message": "Fall-back action for automatic categories"
+  },
+  "SettingsCategoriesTypeAutomaticFallbackDesc": {
+    "description": "Category settings",
+    "message": "Action to take if automatic assignment of the category fails."
+  },
+  "SettingsCategoriesTypeAutomaticDesc3": {
+    "description": "Category settings",
+    "message": "The regex expressions will be tested in descending order and first match will be used as category. The search is case insensitive."
+  },
+  "SettingsCategoriesTypeAutomaticDesc2": {
+    "description": "Category settings",
+    "message": "NZBDonkey will test the NZB title/filename for the regex expressions and if matched set the category to the corresponding category name."
+  },
+  "SettingsCategoriesTypeAutomaticDesc1": {
+    "description": "Category settings",
+    "message": "Enter the name of the category and the corresponding regex expression for automatic categories."
+  },
+  "SettingsCategoriesTypeAutomatic": {
+    "description": "Category settings",
+    "message": "automatic assignment of the category"
+  },
+  "SettingsCategoriesType": {
+    "description": "Category settings",
+    "message": "Type of category assignment"
+  },
+  "SettingsCategoriesTitle": {
+    "description": "Category settings title",
+    "message": "Use of categories"
+  },
+  "SettingsCategories": {
+    "description": "Category settings",
+    "message": "activate categories"
+  },
+  "SettingsSearchEnginesDefaultTitle": {
+    "description": "Category settings",
+    "message": "Default Search Engines"
+  },
+  "SettingsSearchEnginesDefaultDesc": {
+    "description": "Category settings",
+    "message": "Search engines that are not to be used can be deactivated. The other settings cannot be changed."
+  },
+  "SettingsSearchEnginesActive": {
+    "description": "Category settings",
+    "message": "Active"
+  },
+  "SettingsSearchEnginesActiveDesc": {
+    "description": "Category settings",
+    "message": "enable if this NZB search engine shall be used."
+  },
+  "SettingsSearchEnginesName": {
+    "description": "Category settings",
+    "message": "Search engine name"
+  },
+  "SettingsSearchEnginesNameDesc": {
+    "description": "Category settings",
+    "message": "custom name for the search engine"
+  },
+  "SettingsSearchEnginesSearchURL": {
+    "description": "Category settings",
+    "message": "URL for NZB search"
+  },
+  "SettingsSearchEnginesSearchURLDesc": {
+    "description": "Category settings",
+    "message": "URL to be called for the NZB file search. The search string has to be replaced with \"%s\"."
+  },
+  "SettingsSearchEnginesResponseType": {
+    "description": "Category settings",
+    "message": "Response type"
+  },
+  "SettingsSearchEnginesResponseTypeDesc": {
+    "description": "Category settings",
+    "message": "Type of response sent back from the search engine. Can be either a HTML page or a JSON object."
+  },
+  "SettingsSearchEnginesJSONPath": {
+    "description": "Category settings",
+    "message": "JSON object path"
+  },
+  "SettingsSearchEnginesJSONPathDesc": {
+    "description": "Category settings",
+    "message": "If response type is JSON, this is the JSON object path for the NZB file ID (divided by periods). Example: { results: [ { nzbid: 123456 }, ... ], ... } => \"results.0.nzbid\""
+  },
+  "SettingsSearchEnginesRegex": {
+    "description": "Category settings",
+    "message": "Regex expression"
+  },
+  "SettingsSearchEnginesRegexDesc": {
+    "description": "Category settings",
+    "message": "If response type is HTML, this is the regex expression to be used to search in the HTML search results page for the NZB file ID. The NZB file ID has to be in a capturing group \"()\"."
+  },
+  "SettingsSearchEnginesRegexGroup": {
+    "description": "Category settings",
+    "message": "Group No."
+  },
+  "SettingsSearchEnginesRegexGroupDesc": {
+    "description": "Category settings",
+    "message": "number of the capturing group in the regex expression that does contain the NZB file ID. Can be left blank if response typ is JSON."
+  },
+  "SettingsSearchEnginesDownloadURL": {
+    "description": "Category settings",
+    "message": "NZB download URL"
+  },
+  "SettingsSearchEnginesDownloadURLDesc": {
+    "description": "Category settings",
+    "message": "URL to be called for the NZB file download. The NZB file ID has to be replaced with \"%s\"."
+  },
+  "SettingsSearchEnginesCustomTitle": {
+    "description": "Category settings",
+    "message": "Custom search engines"
+  },
+  "SettingsSearchEnginesCustomDesc": {
+    "description": "Category settings",
+    "message": "Set up custom search engines."
+  },
+  "SettingsInterceptionTitle": {
+    "description": "Category settings",
+    "message": "Interception of NZB files"
+  },
+  "SettingsInterception": {
+    "description": "Category settings",
+    "message": "intercept the download of NZB files"
+  },
+  "SettingsInterceptionPrompt": {
+    "description": "Category settings",
+    "message": "show pop-up window to edit title and password information"
+  },
+  "SettingsInterceptionPromptDesc": {
+    "description": "Category settings",
+    "message": "If enabled, a pop-up window will appear for each intercepted NZB file to check and edit the title and password information before sending it to the NZB file destination.<br />Otherwise, the NZB file will be sent directly to the NZB file destination. The name of the downloaded NZB file is used to determine the title and, if applicable, the password."
+  },
+  "SettingsInterceptionDefaultDomains": {
+    "description": "Category settings",
+    "message": "Default Domains"
+  },
+  "SettingsInterceptionDefaultDomainsDesc": {
+    "description": "Category settings",
+    "message": "Default domains where the download of NZB file will be intercepted.\nDomains that are not to be used can be deactivated. The other settings cannot be changed."
+  },
+  "SettingsInterceptionCustomDomains": {
+    "description": "Category settings",
+    "message": "Custom Domains"
+  },
+  "SettingsInterceptionCustomDomainsDesc": {
+    "description": "Category settings",
+    "message": "Set up custom domains where the download of NZB files is intercepted."
+  },
+  "SettingsInterceptionActive": {
+    "description": "Category settings",
+    "message": "Active"
+  },
+  "SettingsInterceptionActiveDesc": {
+    "description": "Category settings",
+    "message": "enable if NZB file downloads shall be intercepted on this domain"
+  },
+  "SettingsInterceptionDomain": {
+    "description": "Category settings",
+    "message": "Domain"
+  },
+  "SettingsInterceptionDomainDesc": {
+    "description": "Category settings",
+    "message": "base domain where you want to intercept NZB file download. CAUTION: only add the base domain without any subdomain (e.g. without \"www\")."
+  },
+  "SettingsInterceptionFormDataHandling": {
+    "description": "Category settings",
+    "message": "Handling of form data"
+  },
+  "SettingsInterceptionFormDataHandlingDesc": {
+    "description": "Category settings",
+    "message": "defines how POST form data should be handled for this domain.<br />If the default setting results in constant error messages about invalid or empty NZB files, choose one of the other options."
+  },
+  "SettingsInterceptionFormDataHandlingPOST": {
+    "description": "Category settings",
+    "message": "Send form data as POST request (default)"
+  },
+  "SettingsInterceptionFormDataHandlingGET": {
+    "description": "Category settings",
+    "message": "Send form data as GET request"
+  },
+  "SettingsInterceptionFormDataHandlingString": {
+    "description": "Category settings",
+    "message": "Send form data as string"
+  },
+  "NotificationFaildToINitialize": {
+    "description": "Notification text",
+    "message": "The script faild to initialize!"
+  },
+  "NotificationRestartBrowser": {
+    "description": "Notification text",
+    "message": "Please restart the brwoser."
+  },
+  "NotificationRightClickWrongStart": {
+    "description": "Notification text",
+    "message": "NZBDonkey was started with a right click but neither on a link nor on a text selection"
+  },
+  "NotificationNoSupportForCategories": {
+    "description": "Notification text",
+    "message": "This NZB file destination does not support categories."
+  },
+  "NotificationSettingsNotLoaded": {
+    "description": "Notification text",
+    "message": "The settings could not be loaded."
+  },
+  "NotificationSearchingFor": {
+    "description": "Notification text",
+    "placeholders": {
+      "NZBFILE": {
+        "content": "$1",
+        "example": "file.nzb"
+      }
+    },
+    "message": "Starting to search for $NZBFILE$"
+  },
+  "NotificationInterceptingDownload": {
+    "description": "Notification text",
+    "placeholders": {
+      "NZBFILETITLE": {
+        "content": "$1",
+        "example": "title"
+      },
+      "ORIGIN": {
+        "content": "$2",
+        "example": "nzbindex.com"
+      }
+    },
+    "message": "Intercepting the download of $NZBFILETITLE$.nzb from $ORIGIN$"
+  },
+  "NotificationStartingDownload": {
+    "description": "Notification text",
+    "placeholders": {
+      "NZBFILE": {
+        "content": "$1",
+        "example": "file.nzb"
+      }
+    },
+    "message": "Saving NZB file \"$NZBFILE$\" in the download folder"
+  },
+  "StatusSearchingForNZB": {
+    "description": "Status text",
+    "message": "Searching for the NZB file"
+  },
+  "StatusNZBFetched": {
+    "description": "Status text",
+    "message": "NZB file fetched - processing the file"
+  },
+  "StatusPushingToTarget": {
+    "description": "Status text",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGET"
+      }
+    },
+    "message": "Pushing the NZB file to $TARGET$"
+  },
+  "StatusPushedToTarget": {
+    "description": "Status text",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGET"
+      }
+    },
+    "message": "Successfully pushed to $TARGET$"
+  },
+  "StatusDownloading": {
+    "description": "Status text",
+    "message": "Saving to download folder"
+  },
+  "StatusDownloaded": {
+    "description": "Status text",
+    "message": "Successfully saved to download folder"
+  },
+  "OriginInterception": {
+    "description": "Status text",
+    "placeholders": {
+      "ORIGIN": {
+        "content": "$1",
+        "example": "nzbindex.com"
+      }
+    },
+    "message": "NZB download interception on $ORIGIN$"
+  },
+  "OriginNZBSearch": {
+    "description": "Status text",
+    "placeholders": {
+      "ORIGIN": {
+        "content": "$1",
+        "example": "nzbindex.com"
+      }
+    },
+    "message": "NZB file search on $ORIGIN$"
+  },
+  "ErrorMsgNoHeader": {
+    "description": "Error text",
+    "message": "no header information was provided"
+  },
+  "ErrorInvalidNZBlnkMissingHeader": {
+    "description": "Error text",
+    "message": "the NZBlnk link is missing the header parameter"
+  },
+  "ErrorInvalidNZBlnkNoParameters": {
+    "description": "Error text",
+    "message": "the NZBlnk link does not contain any parameter"
+  },
+  "ErrorNoNZBlnk": {
+    "description": "Error text",
+    "message": "this is not a NZBlnk link"
+  },
+  "ErrorNoUsableNZBFound": {
+    "description": "Error text",
+    "message": "no usable NZB file was found"
+  },
+  "ErrorWhileConnectinToTarget": {
+    "description": "Error text",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGET"
+      }
+    },
+    "message": "An error occurred while connection to $TARGET$"
+  },
+  "ErrorWhilePushingToTarget": {
+    "description": "Error text",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGET"
+      }
+    },
+    "message": "An error occurred while pushing the NZB file to $TARGET$"
+  },
+  "SuccessWhileConnectinToTarget": {
+    "description": "Success text",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGET"
+      }
+    },
+    "message": "Successfully connected to $TARGET$!"
+  },
+  "SuccessWhilePushingToTarget": {
+    "description": "Success text",
+    "placeholders": {
+      "NZBFILETITLE": {
+        "content": "$1",
+        "example": "title"
+      },
+      "TARGET": {
+        "content": "$2",
+        "example": "NZBGET"
+      }
+    },
+    "message": "$NZBFILETITLE$.nzb was successfully pushed to $TARGET$!"
+  },
+  "SuccessSavingNZBFile": {
+    "description": "Success text",
+    "placeholders": {
+      "NZBFILE": {
+        "content": "$1",
+        "example": "title.nzb"
+      }
+    },
+    "message": "The NZB file \"$NZBFILE$\" was successfully saved to the download folder!"
+  },
+  "ErrorSavingNZBFile": {
+    "description": "Error text",
+    "placeholders": {
+      "NZBFILE": {
+        "content": "$1",
+        "example": "title.nzb"
+      }
+    },
+    "message": "The NZB file \"$NZBFILE$\" could not be saved to the download folder!"
+  },
+  "DownloadCancelled": {
+    "description": "Download aborted message",
+    "placeholders": {
+      "NZBFILE": {
+        "content": "$1",
+        "example": "title.nzb"
+      }
+    },
+    "message": "The saving of the NZB file \"$NZBFILE$\" was aborted!"
+  },
+  "PremiumizePremiumStatus": {
+    "description": "Premiumize text",
+    "message": "Premium status"
+  },
+  "PremiumizePremiumStatusValidTill": {
+    "description": "Premiumize text",
+    "message": "valid till"
+  },
+  "PremiumizePremiumStatusInactive": {
+    "description": "Premiumize text",
+    "message": "inactive"
+  },
+  "PremiumizePremiumFairUsePoints": {
+    "description": "Premiumize text",
+    "message": "Available fair use points"
+  },
+  "DownloadPasswordSaveWarning": {
+    "description": "Warning of invalid characters in password",
+    "message": "The password contains invalid characters and was not included in the filename."
+  },
+  "InterceptionCancelled": {
+    "description": "Download aborted message",
+    "message": "The processing was aborted!"
+  },
+  "NZBFileNotValid": {
+    "description": "",
+    "message": "no valid NZB file!"
+  },
+  "NZBFileNoFiles": {
+    "description": "",
+    "message": "NZB file does not contain any file information!"
+  },
+  "NZBFileIncomplete": {
+    "description": "",
+    "message": "This NZB file is incomplete with"
+  },
+  "NZBFileMissingFiles": {
+    "description": "",
+    "message": "missing files"
+  },
+  "NZBFileMissingSegments": {
+    "description": "",
+    "message": "missing segments"
+  },
+  "and": {
+    "description": "",
+    "message": "and"
+  },
+  "ServerErrorCode": {
+    "description": "",
+    "placeholders": {
+      "CODE": {
+        "content": "$1",
+        "example": "404"
+      }
+    },
+    "message": "the server responded with erro code \"$CODE$\""
+  },
+  "ServerErrorUnknown": {
+    "description": "",
+    "message": "unknown network error"
+  },
+  "ServerErrorTimeOut": {
+    "description": "",
+    "message": "the server timed out"
+  }
+}

@@ -1,0 +1,82 @@
+{  
+    "manifest_version":2,
+    "name":"__MSG_extName__",
+    "version":"0.8.2",
+    "description":"__MSG_extSlogan__",
+    "default_locale": "en",
+    "icons":{  
+        "16":"/icons/NZBDonkey_16.png",
+        "32":"/icons/NZBDonkey_32.png",
+        "48":"/icons/NZBDonkey_48.png",
+        "96":"/icons/NZBDonkey_96.png",
+        "128":"/icons/NZBDonkey_128.png"
+    },
+    "background":{  
+        "scripts":[  
+            "/js/include/xmlToJSON.js",
+            "/js/include/browser-polyfill.js",
+            "/js/background/functions.js",
+            "/js/background/logger.js",
+            "/js/background/eventlisteners.js",
+            "/js/background/background.js",
+            "/js/background/nzbsearch.js",
+            "/js/background/checknzbfile.js",
+            "/js/background/categories.js",
+            "/js/background/interception.js",
+            "/js/background/editnzbinformation.js",
+            "/js/background/target.nzbget.js",
+            "/js/background/target.sabnzbd.js",
+            "/js/background/target.synology.js",
+            "/js/background/target.premiumize.js",
+            "/js/background/target.download.js"
+        ]
+    },
+    "content_scripts":[  
+        {  
+            "matches":[  
+                "<all_urls>"
+            ],
+            "js":[  
+                "/js/include/jquery.js",
+                "/js/include/jquery.modal.js",
+                "/js/include/browser-polyfill.js",
+                "/js/content/content.js"
+            ],
+            "css":[  
+                "/css/jquery.modal.css"
+            ],
+            "run_at":"document_end",
+            "all_frames": false
+        }
+    ],
+    "browser_action": {
+        "default_icon": {
+          "16":"/icons/NZBDonkey_16.png",
+          "32":"/icons/NZBDonkey_32.png",
+          "48":"/icons/NZBDonkey_48.png",
+          "96":"/icons/NZBDonkey_96.png",
+          "128":"/icons/NZBDonkey_128.png"
+        },
+        "default_title": "NZBDonkey",
+        "default_popup": "/html/popups/browseraction.html"
+    },
+    "options_ui":{  
+        "page":"/html/options/options.html",
+        "open_in_tab":true
+    },
+    "permissions":[  
+        "contextMenus",
+        "activeTab",
+        "storage",
+        "downloads",
+        "notifications",
+        "*://*/",
+        "cookies",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "web_accessible_resources": [
+        "icons/*",
+		"img/*"
+    ]
+}

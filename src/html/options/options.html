@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/options.css" />
+    <link rel="stylesheet" href="/css/dragula.css" />
+    <link rel="stylesheet" href="/css/jquery.modal.css" />
+    <title></title>
+</head>
+<body class="flex_container flex_column py-4">
+
+    <div id="loading-overlay">
+        <img src="/img/loader.gif" alt="Loading" /><br/>
+        <span data-message="extSettingsLoadingMessage"></span>
+    </div>
+
+    <div id="header" class="flex_container flex_row flex_min">
+        <div id="left-header" class="flex_container flex_column flex_min navigation mb-2">
+            <div id="logo" class="flex_min navigation">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col mr-3 pr-0 pb-2 border-bottom">
+                            <img src="/icons/NZBDonkey_48.png" class="img-fluid float-right" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="right-header" class="flex_container flex_column flex_max mb-2" style="align-self: flex-end">
+            <div id="title" class="flex_min">
+                <div class="container-fluid">
+                    <div id="title-row" class="row">
+                        <div class="col ml-3 pl-0 pb-0 border-bottom d-flex justify-content-between align-items-end">
+                            <h3 id="nzbtarget-title" class="tabcontent hidden" data-message="SettingsNZBTargetTitle"></h3>
+                            <h3 id="processing-title" class="tabcontent hidden" data-message="SettingsProcessingTitle"></h3>
+                            <h3 id="general-title" class="tabcontent hidden" data-message="extSettingsGeneralTitle"></h3>
+                            <h3 id="category-title" class="tabcontent hidden" data-message="extSettingsCategoriesTitle"></h3>
+                            <h3 id="searchengines-title" class="tabcontent hidden" data-message="extSettingsSearchEnginesTitle"></h3>
+                            <h3 id="interception-title" class="tabcontent hidden" data-message="extSettingsNZBInterceptionTitle"></h3>
+                            <h3 id="about-title" class="tabcontent hidden" data-message="extAboutTitle"></h3>
+                            <h3 id="changelog-title" class="tabcontent hidden" data-message="extChangeLogTitle"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="body" class="flex_container flex_row flex_max">
+        <div id="left-body" class="flex_container flex_column flex_min navigation">
+            <div id="navigation" class="flex_max navigation scroll">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col px-0">
+                            <ul class="flex-column nav text-right">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nzbtarget-tab" href="#nzbtarget" data-message="SettingsNZBTargetLink"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="processing-tab" href="#processing" data-message="SettingsProcessingLink"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="category-tab" href="#category" data-message="extSettingsCategoriesLink"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="searchengines-tab" href="#searchengines" data-message="extSettingsSearchEnginesLink"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="interception-tab" href="#interception" data-message="extSettingsNZBInterceptionLink"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="general-tab" href="#general" data-message="extSettingsGeneralLink"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="navigation-bottom" class="flex_min navigation">
+                <div class="container-fluid">
+                    <div id="advanced-settings-switch-container" class="row">
+                         <div id="advanced-settings-switch" class="col px-0 mr-3 pb-3 w-100 mr-3">
+                            <label class="d-flex justify-content-end align-items-center text-right hidden">
+                                <span data-message="SettingsTargetAdvancedSettingsShow"></span>
+                                <label class="switch switch-right"><input id="showAdvancedSettings" type="checkbox"><span class="slider round"></span></label>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col px-0 mr-3 py-2 border-top">
+                            <ul class="nav flex-column text-right">
+                                <li class="nav-item">
+                                    <a class="nav-link pr-0" id="about-tab" href="#about" data-message="extAboutLink"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pr-0" id="changelog-tab" href="#changelog" data-message="extChangeLogLink"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="right-body" class="flex_container flex_column flex_max pt-2">
+
+            <div id="nzbtarget" class="flex_container flex_column flex_max container-fluid pb-3 pr-0 tabcontent hidden">
+                <div id="nzbtarget-row-headercontent" class="row flex_min">
+                    <div class="col">
+                        <div id="nzbtarget-content">
+                        </div>
+                        <hr class="my-2"/>
+                    </div>
+                </div>
+
+                <div id="nzbtarget-row-subcontent" class="row flex_max scroll mx-0">
+
+                    <div id="nzbtarget-subcontent-download" class="container-fluid hidden">
+                        <div class="row">
+                            <div class="col px-0">
+                                <h5 data-message="extSettingsDownloadTitle"></h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="download-content" class="col px-0">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="nzbtarget-subcontent-nzbget" class="container-fluid hidden">
+                        <div class="row">
+                            <div class="col px-0">
+                                <h5 data-message="extSettingsNZBGetTitle"></h5>
+                            </div>
+                        </div>
+                        <div class="row">                           
+                            <div id="nzbget-content" class="col px-0">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="nzbtarget-subcontent-sabnzbd" class="container-fluid hidden">
+                        <div class="row">
+                            <div class="col px-0">
+                                <h5 data-message="extSettingsSABnzbdTitle"></h5>
+                            </div>
+                        </div>
+                        <div class="row">                            
+                            <div id="sabnzbd-content" class="col px-0">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="nzbtarget-subcontent-synology" class="container-fluid hidden">
+                        <div class="row">
+                            <div class="col px-0">
+                                <h5 data-message="extSettingsSynologyTitle"></h5>
+                            </div>
+                        </div>
+                        <div class="row">                            
+                            <div id="synology-content" class="col px-0">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="nzbtarget-subcontent-premiumize" class="container-fluid hidden">
+                        <div class="row">
+                            <div class="col px-0">
+                                <h5 data-message="extSettingsPremiumizeTitle"></h5>
+                            </div>
+                        </div>
+                        <div class="row">                            
+                            <div id="premiumize-content" class="col px-0">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col px-0">
+                                <hr />
+                                <p><span data-message="extSettingsPremiumizeAdvert"></span> <a href="https://www.premiumize.me/ref/937841303">www.premiumize.me</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="processing" class="flex_container flex_column flex_max container-fluid pb-3 pr-0 tabcontent hidden">
+                <div id="processing-row-subcontent" class="row flex_max scroll mx-0">
+                    <div id="processing-content" class="col px-0">
+                    </div>
+                </div>
+            </div>
+
+            <div id="general" class="flex_container flex_column flex_max container-fluid pb-3 pr-0 tabcontent hidden">
+                <div id="general-row-subcontent" class="row flex_max scroll mx-0">
+                    <div id="general-content" class="col px-0">
+                    </div>
+                </div>
+            </div>
+
+            <div id="category" class="flex_container flex_column flex_max container-fluid pb-3 pr-0 tabcontent hidden">
+                <div id="category-row-headercontent" class="row flex_min">
+                    <div class="col">
+                        <div id="category-content">
+                        </div>
+                    </div>
+                </div>
+                <div id="category-row-subcontent" class="row flex_max scroll mx-0 hidden">
+                    <div class="container-fluid px-0">
+                        <div class="col-12 px-0 flex-min"><hr class="mt-0 mb-2"/></div>
+                        <div id="category-subcontent-automatic" class="container-fluid hidden">
+                            <div class="row">
+                                <div id="category-automatic-content" class="col px-0">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="category-subcontent-manual" class="container-fluid hidden">
+                            <div class="row">
+                                <div id="category-manual-content" class="col px-0">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="category-manualtarget-content" class="col px-0 hidden">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div id="category-button-result" class="col px-0">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col px-0">
+                                                <span id="category-button-container"><button id="category-button" class="btn btn-outline-primary" data-message="extSettingsCategoryButton"></button></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="category-subcontent-default" class="container-fluid hidden">
+                            <div class="row">
+                                <div id="category-default-content" class="col px-0">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="searchengines" class="flex_container flex_column flex_max container-fluid pb-3 pr-0 tabcontent hidden">
+                <div id="searchengines-row-subcontent" class="row flex_max scroll mx-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div id="searchengines-content" class="col px-0">
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="interception" class="flex_container flex_column flex_max container-fluid pb-3 pr-0 tabcontent hidden">
+                <div id="interception-row-subcontent" class="row flex_max scroll mx-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div id="interception-content" class="col px-0">
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="about" class="flex_container flex_column flex_max container-fluid pb-3 pr-0 tabcontent hidden">
+                <div id="about-row-subcontent" class="row flex_max scroll mx-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div id="about-content" class="col px-0">
+                                <h4><span data-message="extName"></span> <small id="NZBDonkeyVersion"></small></h4>
+                                <h5 data-message="extSlogan"></h5><br />
+                                <h6 >Copyright <span id="NZBDonkeyCopyrightYear"></span> by Tensai</h6 ><br />
+                                <h6 data-message="extAboutLicenseTitle"></h6>
+                                <p data-message="extAboutLicense"></p><br />
+                                <h6>Support</h6>
+                                <p data-message="extAboutSupport"></p>
+                                <p>GitHub Homepage: <a href="https://tensai75.github.io/NZBDonkey/">https://tensai75.github.io/NZBDonkey/</a></p>
+                                <p>NZBDonkey Support Forum: <a href="https://www.fileleechers.info/forum/nzbdonkey">https://www.fileleechers.info/forum/nzbdonkey</a></p><br />
+                                <h6>Credits</h6>
+                                <p data-message="extAboutCredits"></p>
+                                <p>NZBlnk Homepage: <a href="https://nzblnk.info/">https://nzblnk.info/</a></p>
+                                <p>NZBMonkey Homepage: <a href="https://nzblnk.info/nzb-monkey/">https://nzblnk.info/nzb-monkey/</a></p><br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="changelog" class="flex_container flex_column flex_max container-fluid pb-3 pr-0 tabcontent hidden">
+                <div id="changelog-row-subcontent" class="row flex_max scroll mx-0">
+                    <div id="changelog-content" class="col px-0">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer" class="flex_container flex_row flex_min">
+        <div id="left-footer" class="flex_container flex_column flex_min navigation">
+            <div id="autosave" class="flex_min">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col mr-3 px-0 pt-2 border-top">
+                            <div class="row">
+                                <div class="col text-right">
+                                    <button id="save-button" disabled class="btn btn-outline-primary hidden" data-message="extSettingsSaveButton"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="right-footer" class="flex_container flex_column flex_max">
+            <div id="footer" class="flex_min">
+                <div class="container-fluid">
+                    <div id="footer-row" class="row">
+                        <div class="col ml-3 px-0 pt-2 border-top">
+                            <div class="d-flex justify-content-between">
+                                <div class="">
+                                    <span id="test-button-container"><button id="test-button" class="btn btn-outline-primary hidden" data-message="extSettingsTestButton"></button></span>
+                                </div>
+                                <div class="">
+                                    <button id="save-alert" disabled class="btn btn-success hidden" data-message="extSettingsSaveMessage"></button>
+                                </div>
+                                <div class="">
+                                    <button id="reset-button" class="btn btn-outline-primary" data-message="extSettingsResetButton"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- JavaScript -->
+<script src="/js/include/jquery.js"></script>
+<script src="/js/include/jquery.modal.js"></script>
+<script src="/js/include/bootstrap.js"></script>
+<script src="/js/include/dragula.js"></script>
+<script src="/js/include/dom.js"></script>
+<script src="/js/include/util.js"></script>
+<script src="/js/include/markdown.js"></script>
+<script src="/js/options/settings.js"></script>
+<script src="/js/options/options.js"></script>
+</body>
+</html>

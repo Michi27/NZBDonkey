@@ -1,0 +1,1110 @@
+{
+  "title": {
+    "description": "Title",
+    "message": "Titel"
+  },
+  "synology": {
+    "description": "Local name of Synology DownloadStation",
+    "message": "Synology DownloadStation"
+  },
+  "success": {
+    "description": "Success text e.g. for buttons",
+    "message": "Erfolg"
+  },
+  "settings": {
+    "description": "Settings text e.g. for buttons",
+    "message": "Einstellungen"
+  },
+  "select": {
+    "description": "Select text e.g. for buttons",
+    "message": "Auswählen"
+  },
+  "sabnzbd": {
+    "description": "Local name of SABnzbd",
+    "message": "SABnzbd"
+  },
+  "required": {
+    "description": "Hint message for required information",
+    "message": "erforderlich"
+  },
+  "premiumize": {
+    "description": "Local name of premiumize.me",
+    "message": "premiumize.me"
+  },
+  "popupDownloadHistory": {
+    "description": "Popup window title",
+    "message": "Download-History"
+  },
+  "password": {
+    "description": "Password",
+    "message": "Passwort"
+  },
+  "nzbget": {
+    "description": "Local name of NZBGet",
+    "message": "NZBGet"
+  },
+  "extSlogan": {
+    "description": "Extension slogan/short description",
+    "message": "Das ultimative NZB-Datei Downloader Addon"
+  },
+  "extSettingsTitle": {
+    "description": "Settings page title",
+    "message": "NZBDonkey Einstellungen"
+  },
+  "extSettingsTestButtonTesting": {
+    "description": "Test connection button text while testing",
+    "message": "Prüfe Verbindung..."
+  },
+  "extSettingsTestButton": {
+    "description": "Test connection button text",
+    "message": "Verbindung prüfen"
+  },
+  "extSettingsSynologyTitle": {
+    "description": "Synology settings title",
+    "message": "Synology DownloadStation-Einstellungen"
+  },
+  "extSettingsSynologyLink": {
+    "description": "Synology settings link title",
+    "message": "Synology DS"
+  },
+  "extSettingsSearchEnginesTitle": {
+    "description": "Search engines settings title",
+    "message": "NZB Suchmaschinen-Einstellungen"
+  },
+  "extSettingsSearchEnginesLink": {
+    "description": "Search engines settings link title",
+    "message": "NZB Suchmaschinen"
+  },
+  "extSettingsSaveMessage": {
+    "description": "Settings saved message",
+    "message": "Einstellungen gespeichert!"
+  },
+  "extSettingsSaveButton": {
+    "description": "Save settings button text",
+    "message": "Einstellungen Speichern"
+  },
+  "extSettingsSABnzbdTitle": {
+    "description": "SABnzbd settings title",
+    "message": "SABnzbd-Einstellungen"
+  },
+  "extSettingsSABnzbdLink": {
+    "description": "SABnzbd settings link title",
+    "message": "SABnzbd"
+  },
+  "extSettingsResetWarningMessage": {
+    "description": "Reset settings warning message",
+    "message": "Alle Einstellungen werden gelöscht und auf die Standardwerte zurückgesetzt!<br />Dadurch werden auch alle <strong>benutzerdefinierten Einstellungen</strong> (NZB Suchmaschinen und Domänen für die NZB Download-Überwachung) gelöscht!"
+  },
+  "extSettingsResetButton": {
+    "description": "Reset settings button text",
+    "message": "Einstellungen zurücksetzen"
+  },
+  "extSettingsPremiumizeTitle": {
+    "description": "Premiumize settings title",
+    "message": "premiumize.me-Einstellungen"
+  },
+  "extSettingsPremiumizeLink": {
+    "description": "Premiumize settings link title",
+    "message": "premiumize.me"
+  },
+  "extSettingsPremiumizeAdvert": {
+    "description": "Premiumize advert text",
+    "message": "Unter folgendem Link gibt es 15 Tage Bonus-Premium-Status beim Einrichten eines neuen premiumize.me Account:"
+  },
+  "extSettingsNZBInterceptionTitle": {
+    "description": "NZB download interception settings title",
+    "message": "NZB Download Überwachungs-Einstellungen"
+  },
+  "extSettingsNZBInterceptionLink": {
+    "description": "NZB download interception settings link title",
+    "message": "NZB Download Überwachung"
+  },
+  "extSettingsNZBGetTitle": {
+    "description": "NZBGet settings title",
+    "message": "NZBGet-Einstellungen"
+  },
+  "extSettingsNZBGetLink": {
+    "description": "NZBGet settings link title",
+    "message": "NZBGet"
+  },
+  "extSettingsLoadingMessage": {
+    "description": "Settings page loading message",
+    "message": "Lade Einstellungen..."
+  },
+  "extSettingsLoadingErrorMessage": {
+    "description": "Settings page loading error message",
+    "message": "Fehler beim Laden der Einstellungen"
+  },
+  "extSettingsGeneralTitle": {
+    "description": "General settings title",
+    "message": "Allgemeine Einstellungen"
+  },
+  "extSettingsGeneralLink": {
+    "description": "General settings link title",
+    "message": "Allgemein"
+  },
+  "extSettingsDownloadTitle": {
+    "description": "Download settings title",
+    "message": "Download-Einstellungen"
+  },
+  "extSettingsDownloadLink": {
+    "description": "Download settings link title",
+    "message": "Download"
+  },
+  "extSettingsCategoryButton": {
+    "description": "Category test button text",
+    "message": "Kategorien anzeigen"
+  },
+  "extSettingsCategoriesTitle": {
+    "description": "Categories settings title",
+    "message": "Kategorien-Einstellungen"
+  },
+  "extSettingsCategoriesLink": {
+    "description": "Categories settings link title",
+    "message": "Kategorien"
+  },
+  "extPopupTitle": {
+    "description": "Popup window NZB name header",
+    "message": "Titel"
+  },
+  "extPopupStatus": {
+    "description": "Popup window status header",
+    "message": "Status"
+  },
+  "extPopupOrigin": {
+    "description": "Popup window origin header",
+    "message": "Ursprung"
+  },
+  "extPopupNoHistoryMessage": {
+    "description": "Popup window message if no historie is available",
+    "message": "Keine NZB Download-Historie vorhanden"
+  },
+  "extPopupCategory": {
+    "description": "Popup window category header",
+    "message": "Kategorie"
+  },
+  "extPopupShowDebugLog": {
+    "description": "Popup window show debug log button text",
+    "message": "Debug-Log anzeigen"
+  },
+  "extPopupShowDownloadHistory": {
+    "description": "Popup window show download history button text",
+    "message": "Download Historie anzeigen"
+  },
+  "extName": {
+    "description": "Extension name",
+    "message": "NZBDonkey"
+  },
+  "extNZBTitle": {
+    "description": "NZB Title",
+    "message": "Name"
+  },
+  "extNZBSelectedText": {
+    "description": "Selected Text",
+    "message": "Selektierter Text"
+  },
+  "extNZBPassword": {
+    "description": "NZB Passwort",
+    "message": "Passwort"
+  },
+  "extNZBHeader": {
+    "description": "NZB header",
+    "message": "Header"
+  },
+  "extNZBGetNZBFile": {
+    "description": "Get NZB File text e.g. for button or menu",
+    "message": "NZB-Datei suchen"
+  },
+  "extChangeLogTitle": {
+    "description": "Change log title",
+    "message": "Änderungs-Historie"
+  },
+  "extChangeLogLoadingErrorMessage": {
+    "description": "Change log loading error message",
+    "message": "Fehler: Änderungs-Historie konnte nicht geladen werden!"
+  },
+  "extChangeLogLink": {
+    "description": "Change log link title",
+    "message": "Änderungs-Historie"
+  },
+  "extAboutTitle": {
+    "description": "About title",
+    "message": "Info"
+  },
+  "extAboutSupport": {
+    "description": "GitHub support infomation",
+    "message": "Für Support bitte das NZBDonkey Support-Forum auf fileleechers.info besuchen oder auf GitHub ein \"issue\" eröffnen."
+  },
+  "extAboutLink": {
+    "description": "About link title",
+    "message": "Info"
+  },
+  "extAboutLicenseTitle": {
+    "description": "License title",
+    "message": "Kostenlos zur Verfügung gestellt unter der folgenden MIT-Lizenz"
+  },
+  "extAboutLicense": {
+    "description": "MIT License",
+    "message": "Hiermit wird unentgeltlich jeder Person, die eine Kopie der Software und der zugehörigen Dokumentationen (die \"Software\") erhält, die Erlaubnis erteilt, sie uneingeschränkt zu nutzen, inklusive und ohne Ausnahme mit dem Recht, sie zu verwenden, zu kopieren, zu verändern, zusammenzufügen, zu veröffentlichen, zu verbreiten, zu unterlizenzieren und/oder zu verkaufen, und Personen, denen diese Software überlassen wird, diese Rechte zu verschaffen, unter den folgenden Bedingungen:<br />\n<br />\nDer obige Urheberrechtsvermerk und dieser Erlaubnisvermerk sind in allen Kopien oder Teilkopien der Software beizulegen.<br />\n<br />\nDIE SOFTWARE WIRD OHNE JEDE AUSDRÜCKLICHE ODER IMPLIZIERTE GARANTIE BEREITGESTELLT, EINSCHLIEẞLICH DER GARANTIE ZUR BENUTZUNG FÜR DEN VORGESEHENEN ODER EINEM BESTIMMTEN ZWECK SOWIE JEGLICHER RECHTSVERLETZUNG, JEDOCH NICHT DARAUF BESCHRÄNKT. IN KEINEM FALL SIND DIE AUTOREN ODER COPYRIGHTINHABER FÜR JEGLICHEN SCHADEN ODER SONSTIGE ANSPRÜCHE HAFTBAR ZU MACHEN, OB INFOLGE DER ERFÜLLUNG EINES VERTRAGES, EINES DELIKTES ODER ANDERS IM ZUSAMMENHANG MIT DER SOFTWARE ODER SONSTIGER VERWENDUNG DER SOFTWARE ENTSTANDEN."
+  },
+  "extAboutCredits": {
+    "description": "Credit infomation",
+    "message": "Der NZBDonkey macht Gebrauch vom NZBlnk URI Schema und wurde inspiriert vom NZBMonkey, der Referenz-Implementierung zur Handhabung eines NZBlnk-Linkes."
+  },
+  "error": {
+    "description": "Error text e.g. for buttons",
+    "message": "Fehler"
+  },
+  "unknownError": {
+    "description": "Error text for unknown error",
+    "message": "Ein unbekannter Fehler ist aufgetreten"
+  },
+  "editPopupTitle": {
+    "description": "Titel for Pop-up window with the editable information for title, password and category",
+    "message": "NZB Download Überwachung"
+  },
+  "editPopupMessage": {
+    "description": "Message for Pop-up window with the editable information for title, password and category",
+    "message": "NZBDonkey hat den Download folgender NZB-Datei abgefangen:"
+  },
+  "editPopupSendToTarget": {
+    "description": "Button text for send to target button",
+    "message": "Ans NZB-Datei Ziel senden"
+  },
+  "close": {
+    "description": "Close text e.g. for buttons",
+    "message": "Schliessen"
+  },
+  "caution": {
+    "description": "Caution text e.g. for buttons",
+    "message": "Achtung"
+  },
+  "categorySelectionNoCategory": {
+    "description": "Category selection name for no category",
+    "message": "Keine Kategorie"
+  },
+  "categorySelectionMessage": {
+    "description": "Category selection message",
+    "message": "Bitte die Kategorie auswählen für"
+  },
+  "categorySelection": {
+    "description": "Category selection title",
+    "message": "Kategorie-Auswahl"
+  },
+  "category": {
+    "description": "Category",
+    "message": "Kategorie"
+  },
+  "cancel": {
+    "description": "Cancel text e.g. for buttons",
+    "message": "Abbrechen"
+  },
+  "SettingsTargetUsername": {
+    "description": "Target settings",
+    "message": "Benutzername"
+  },
+  "SettingsTargetSynologyUsernameDesc": {
+    "description": "Target settings",
+    "message": "Dieser Benutzer muss über ausreichende Rechte verfügen, um die DownloadStation nutzen zu können."
+  },
+  "SettingsTargetSynologyReverseProxyDesc": {
+    "description": "Target settings",
+    "message": "z.B. \"/Diskstation\""
+  },
+  "SettingsTargetSynologyPortDesc": {
+    "description": "Target settings",
+    "message": "für http-Verbindungen normalerweise 5000 und für https-Verbindungen 5001"
+  },
+  "SettingsTargetSABnzbdReverseProxyDesc": {
+    "description": "Target settings",
+    "message": "z.B. \"/SABnzbd\""
+  },
+  "SettingsTargetSABnzbdPortDesc": {
+    "description": "Target settings",
+    "message": "für http-Verbindungen normalerweise 8080"
+  },
+  "SettingsTargetSABnzbdAPIKeyDesc": {
+    "description": "Target settings",
+    "message": "wenn die manuelle Kategorienauswahl verwenden werden soll, muss der API-Schlüssel angeben werden"
+  },
+  "SettingsTargetSABnzbdAPIKey": {
+    "description": "Target settings",
+    "message": "API- oder NZB-Schlüssel*"
+  },
+  "SettingsTargetReverseProxy": {
+    "description": "Target settings",
+    "message": "Reverse-Proxy Pfad"
+  },
+  "SettingsTargetPremiumizePINDesc": {
+    "description": "Target settings",
+    "message": "ist auf der premiumize.me Kontoseite angegeben"
+  },
+  "SettingsTargetPremiumizePIN": {
+    "description": "Target settings",
+    "message": "API Key"
+  },
+  "SettingsTargetPremiumizeIDDesc": {
+    "description": "Target settings",
+    "message": "ist auf der premiumize.me Kontoseite angegeben"
+  },
+  "SettingsTargetPremiumizeID": {
+    "description": "Target settings",
+    "message": "Kundennummer"
+  },
+  "SettingsTargetPort": {
+    "description": "Target settings",
+    "message": "Port"
+  },
+  "SettingsTargetPassword": {
+    "description": "Target settings",
+    "message": "Passwort"
+  },
+  "SettingsTargetNZBGetReverseProxyDesc": {
+    "description": "Target settings",
+    "message": "z.B. \"/NZBGet\""
+  },
+  "SettingsTargetNZBGetPortDesc": {
+    "description": "Target settings",
+    "message": "für http-Verbindungen normalerweise 6789"
+  },
+  "SettingsTargetHostNameDesc": {
+    "description": "Target settings",
+    "message": "Domänennamen or IP-Adresse"
+  },
+  "SettingsTargetHostName": {
+    "description": "Target settings",
+    "message": "Hostname"
+  },
+  "SettingsTargetHTTPUsername": {
+    "description": "Target settings",
+    "message": "Benutzername für die HTTP-Authentifizierung"
+  },
+  "SettingsTargetHTTPPassword": {
+    "description": "Target settings",
+    "message": "Passwort für die HTTP-Authentifizierung"
+  },
+  "SettingsTargetConnectionScheme": {
+    "description": "Target settings",
+    "message": "Verbindungsart"
+  },
+  "SettingsTargetAdvancedSettingsDesc": {
+    "description": "Target settings",
+    "message": "Diese Einstellungen werden nur in Ausnahmefällen benötigt, z.B. wenn der Server hinter einem Reverse-Proxy liegt."
+  },
+  "SettingsTargetAdvancedSettingsShow": {
+    "description": "Target settings",
+    "message": "Erweiterte Einstellungen anzeigen"
+  },
+  "SettingsTargetAdvancedSettings": {
+    "description": "Target settings",
+    "message": "Erweitertet Einstellungen"
+  },
+  "SettingsTargetAddPausedTitle": {
+    "description": "Target settings",
+    "message": "Pausiert hinzufügen"
+  },
+  "SettingsTargetAddPaused": {
+    "description": "Target settings",
+    "message": "als pausiert hinzufügen"
+  },
+  "SettingsProcessingTitle": {
+    "description": "Processing settings title",
+    "message": "NZB-Datei Bearbeitungs-Einstellungen"
+  },
+  "SettingsProcessingLink": {
+    "description": "Processing settings link title",
+    "message": "NZB-Datei Bearbeitung"
+  },
+  "SettingsNZBTargetTitle": {
+    "description": "NZBTarget settings title",
+    "message": "NZB-Datei Ziel-Einstellungen"
+  },
+  "SettingsNZBTargetSubTitle": {
+    "description": "NZBTarget settings sub title",
+    "message": "Ziel für die NZB-Datei"
+  },
+  "SettingsNZBTargetSendTo": {
+    "description": "NZBTarget settings send to description",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGet"
+      }
+    },
+    "message": "an $TARGET$ senden"
+  },
+  "SettingsNZBTargetLink": {
+    "description": "NZBTarget settings link title",
+    "message": "NZB-Datei Ziel"
+  },
+  "SettingsNZBTargetDownload": {
+    "description": "NZBTarget settings download description",
+    "message": "im Standard-Downloadordner des Browsers speichern"
+  },
+  "SettingsNZBFileprocessingTitle": {
+    "description": "NZB file processing settings title",
+    "message": "Bearbeitung der NZB-Datei"
+  },
+  "SettingsNZBFileprocessingMetadataTitle": {
+    "description": "NZB file processing settings",
+    "message": "Den Titel der NZB-Datei als Meta-Tag hinzufügen"
+  },
+  "SettingsNZBFileprocessingMetadataPassword": {
+    "description": "NZB file processing settings",
+    "message": "Das Passwort der NZB-Datei als Meta-Tag hinzufügen"
+  },
+  "SettingsNZBFileprocessingMetadataCategory": {
+    "description": "NZB file processing settings",
+    "message": "Die Kategorie der NZB-Datei als Meta-Tag hinzufügen"
+  },
+  "SettingsNZBFileprocessingFilenameSpaces": {
+    "description": "NZB file processing settings",
+    "message": "Alle Punkte in Leerzeichen umwandeln (NZB.Datei.name -> NZB Datei name)"
+  },
+  "SettingsNZBFileprocessingFilenamePeriods": {
+    "description": "NZB file processing settings",
+    "message": "Alle Leerzeichen in Punkte umwandeln (NZB Datei name -> NZB.Datei.name)"
+  },
+  "SettingsNZBFileprocessingFilename": {
+    "description": "NZB file processing settings",
+    "message": "Den NZB-Dateinamen bearbeiten"
+  },
+  "SettingsNZBFileCompletenessTitle": {
+    "description": "NZB file completeness settings title",
+    "message": "Vollständigkeitsprüfung der NZB-Datei"
+  },
+  "SettingsNZBFileCompletenessSegmentCountThreshold": {
+    "description": "NZB file completeness settings",
+    "message": "Maximale Anzahl fehlender Segmente"
+  },
+  "SettingsNZBFileCompletenessSegmentCountDesc": {
+    "description": "NZB file completeness settings",
+    "message": "NZB-Dateien mit fehlenden Segmenten über diesem Schwellenwert werden nicht verwendet."
+  },
+  "SettingsNZBFileCompletenessSegmentCount": {
+    "description": "NZB file completeness settings",
+    "message": "Überprüfung auf Anzahl der Segmente"
+  },
+  "SettingsNZBFileCompletenessFileCountThreshold": {
+    "description": "NZB file completeness settings",
+    "message": "Maximale Anzahl fehlender Dateien"
+  },
+  "SettingsNZBFileCompletenessFileCountDesc": {
+    "description": "NZB file completeness settings",
+    "message": "NZB-Dateien mit fehlenden Dateien über diesem Schwellenwert werden nicht verwendet."
+  },
+  "SettingsNZBFileCompletenessFileCount": {
+    "description": "NZB file completeness settings",
+    "message": "Überprüfung auf Anzahl der Dateien"
+  },
+  "SettingsGeneralNotificationsTitle": {
+    "description": "Notifications settings title",
+    "message": "Benachrichtigungen"
+  },
+  "SettingsGeneralNotificationsSuccess": {
+    "description": "Notifications settings sucess & error",
+    "message": "nur Erfolgs- und Fehlermeldungen anzeigen"
+  },
+  "SettingsGeneralNotificationsError": {
+    "description": "Notifications settings error",
+    "message": "nur Fehlermeldungen anzeigen"
+  },
+  "SettingsGeneralNotificationsAll": {
+    "description": "Notifications settings all",
+    "message": "alle Benachrichtigungen anzeigen"
+  },
+  "SettingsGeneralNotifications": {
+    "description": "Notifications settings",
+    "message": "Anzuzeigende Benachrichtigungen"
+  },
+  "SettingsGeneralNZBlnkTitle": {
+    "description": "NZBlnk settings link title",
+    "message": "NZBlnk-Link"
+  },
+  "SettingsGeneralNZBlnkDesc": {
+    "description": "NZBlnk settings description",
+    "message": "Falls aktiviert, fängt der NZBDonkey linke Mausklicks auf einen NZBlnk-Link ab und verarbeitet diese."
+  },
+  "SettingsGeneralNZBlnk": {
+    "description": "NZBlnk settings",
+    "message": "Mausklicks auf NZBlnk-Links verarbeiten"
+  },
+  "SettingsGeneralDebugModeTitle": {
+    "description": "Debug mode settings title",
+    "message": "Debug-Modus"
+  },
+  "SettingsGeneralDebugModeDesc": {
+    "description": "Debug mode settings description",
+    "message": "Falls aktiviert, gibt der NZBDonkey Debug-Informationen in der Konsole aus."
+  },
+  "SettingsGeneralDebugMode": {
+    "description": "Debug mode settings",
+    "message": "Debug-Modus aktivieren"
+  },
+  "SettingsDownloadSaveAsWarning": {
+    "description": "Download settings",
+    "message": "aufgrund eines Fehlers in Chrome funktioniert der automatische Download im Hintergrund nur, wenn die Chrome-Einstellung \"Vor dem Download von Dateien nach dem Speicherort fragen\" deaktiviert ist."
+  },
+  "SettingsDownloadSaveAsTitle": {
+    "description": "Download settings",
+    "message": "\"Speichern unter...\"-Dialog"
+  },
+  "SettingsDownloadSaveAsDesc2": {
+    "description": "Download settings",
+    "message": "Deaktiviert lassen, wenn die NZB-Dateien automatisch im Hintergrund in den Standardordner gespeichert werden soll."
+  },
+  "SettingsDownloadSaveAsDesc1": {
+    "description": "Download settings",
+    "message": "Falls aktiviert, erscheint ein \"Speichern unter...\"-Dialog um den Ordner auszuwählen, in dem die NZB-Datei gespeichert werden soll."
+  },
+  "SettingsDownloadSaveAs": {
+    "description": "Download settings",
+    "message": "\"Speichern unter...\"-Dialog verwenden"
+  },
+  "SettingsDownloadFolderWarning": {
+    "description": "Download settings",
+    "message": "Keinen absoluten Pfad verwenden! Nur einen <u>relativen Pfad</u> im Standard-Downloadordner des Browsers angeben! Keine führenden oder nachfolgenden Backslashes anfügen!"
+  },
+  "SettingsDownloadFolderDesc": {
+    "description": "Download settings",
+    "message": "Leer lassen, wenn die NZB-Dateien direkt im Standard-Downloadordner des Browsers gespeichert werden soll. Andernfalls werden die NZB-Dateien in einen Unterordner mit diesem Namen gespeichert.\nDer Unterordner wird angelegt, wenn er noch nicht vorhanden ist.\n"
+  },
+  "SettingsDownloadFolder": {
+    "description": "Download settings",
+    "message": "Unterordner für die Speicherung der NZB-Dateien"
+  },
+  "SettingsDownloadCategorySubFoldersTitle": {
+    "description": "Download settings",
+    "message": "Unterordner für Kategorien"
+  },
+  "SettingsDownloadCategorySubFoldersDesc": {
+    "description": "Download settings",
+    "message": "Falls aktiviert, werden die NZB-Dateien gemäss ihrer Kategorie in einen entsprechenden Unterordner gespeichert.\nErfordert die Aktivierung der Kategoriefunktion. Die Kategorien-Unterordner werden angelegt, wenn sie noch nicht vorhanden sind."
+  },
+  "SettingsDownloadCategorySubFolders": {
+    "description": "Download settings",
+    "message": "Unterordner für Kategorien verwenden"
+  },
+  "SettingsCategoriesTypeNoCategory": {
+    "description": "Category settings",
+    "message": "Kategorienzuordnung überspringen"
+  },
+  "SettingsCategoriesTypeManualTypeFromTargetWarning1": {
+    "description": "Category settings",
+    "message": "Dieses NZB-Datei Ziel stellt keine Kategorien für die manuelle Kategorienzuordnung zu verfügung.<br />Die Einstellung für die manuelle Kategorienzuordnung wurde desshalb auf \"Eigene Kategorien verwenden\" geändert."
+  },
+  "SettingsCategoriesTypeManualTypeFromTargetWarning2": {
+    "description": "Category settings",
+    "message": "Diese Option funktioniert nur mit NZBGet oder SABnzbd als NZB-Datei Ziel.<br />Bitte setzen Sie zuerst ein unterstütztes NZB-Datei Ziel."
+  },
+  "SettingsCategoriesTypeManualTypeFromTargetDesc": {
+    "description": "Category settings",
+    "message": "Die manuelle Kategorienauswahl funktioniert mit SABnzbd nur, wenn der SABnzbd API-Schlüssel verwendet wird"
+  },
+  "SettingsCategoriesTypeManualTypeFromTarget": {
+    "description": "Category settings",
+    "message": "Die Kategorien des NZB-Datei Ziel verwenden (funktioniert nur mit NZBGet und SABnzbd*)."
+  },
+  "SettingsCategoriesTypeManualTypeCustomTitle": {
+    "description": "Category settings",
+    "message": "Benutzerdefinierte Kategorien"
+  },
+  "SettingsCategoriesTypeManualTypeCustom": {
+    "description": "Category settings",
+    "message": "Benutzerdefinierte Kategorien verwenden"
+  },
+  "SettingsCategoriesTypeManualType": {
+    "description": "Category settings",
+    "message": "Art der manuellen Kategoriezuordnung"
+  },
+  "SettingsCategoriesTypeManualTitle": {
+    "description": "Category settings",
+    "message": "Manuelle Kategoriezuordnung"
+  },
+  "SettingsCategoriesTypeManualDesc": {
+    "description": "Category settings",
+    "message": "Für jede NZB-Datei wird ein Popup-Fenster angezeigt, in dem die Kategorie ausgewählt werden kann."
+  },
+  "SettingsCategoriesTypeManual": {
+    "description": "Category settings",
+    "message": "Manuelle Kategorienzuordnung"
+  },
+  "SettingsCategoriesTypeDefaultTitle": {
+    "description": "Category settings",
+    "message": "Standardkategorie"
+  },
+  "SettingsCategoriesTypeDefaultDesc": {
+    "description": "Category settings",
+    "message": "Namen der Standardkategorie, der für alle NZB-Dateien verwendet werden soll."
+  },
+  "SettingsCategoriesTypeDefault": {
+    "description": "Category settings",
+    "message": "Zuordnung einer Standardkategorie"
+  },
+  "SettingsCategoriesTypeAutomaticTitle": {
+    "description": "Category settings",
+    "message": "Automatische Kategorienzuordnung"
+  },
+  "SettingsCategoriesTypeAutomaticRegex": {
+    "description": "Category settings",
+    "message": "Regex-Ausdruck"
+  },
+  "SettingsCategoriesTypeAutomaticName": {
+    "description": "Category settings",
+    "message": "Name der Kategorie"
+  },
+  "SettingsCategoriesTypeAutomaticFallbackTitle": {
+    "description": "Category settings",
+    "message": "Fallback-Aktion für automatische Kategorienzuordnung"
+  },
+  "SettingsCategoriesTypeAutomaticFallbackDesc": {
+    "description": "Category settings",
+    "message": "Alternative Aktion, falls die automatische Zuordnung der Kategorie fehlschlägt."
+  },
+  "SettingsCategoriesTypeAutomaticDesc3": {
+    "description": "Category settings",
+    "message": "Die Regex-Ausdrücke werden in absteigender Reihenfolge getestet und die erste Übereinstimmung wird als Kategorie verwendet. Bei der Suche wird nicht zwischen Groß- und Kleinschreibung unterschieden."
+  },
+  "SettingsCategoriesTypeAutomaticDesc2": {
+    "description": "Category settings",
+    "message": "Der NZBDonkey testet den NZB-Titel/Dateinamen mittels des Regex-Ausdrucks und setzt bei einer Übereinstimmung die Kategorie auf den entsprechenden Kategorienamen."
+  },
+  "SettingsCategoriesTypeAutomaticDesc1": {
+    "description": "Category settings",
+    "message": "Für die automatische Kategorienzuordnung den Namen der Kategorie und den entsprechenden Regex-Ausdruck eingeben."
+  },
+  "SettingsCategoriesTypeAutomatic": {
+    "description": "Category settings",
+    "message": "Automatische Kategorienzuordnung"
+  },
+  "SettingsCategoriesType": {
+    "description": "Category settings",
+    "message": "Art der Kategorienzuordnung"
+  },
+  "SettingsCategoriesTitle": {
+    "description": "Category settings title",
+    "message": "Verwendung von Kategorien"
+  },
+  "SettingsCategories": {
+    "description": "Category settings",
+    "message": "Kategorienzuordnung aktivieren"
+  },
+  "SettingsSearchEnginesDefaultTitle": {
+    "description": "Category settings",
+    "message": "Standard-Suchmaschinen"
+  },
+  "SettingsSearchEnginesDefaultDesc": {
+    "description": "Category settings",
+    "message": "Suchmaschinen, die nicht genutzen werden sollen, können deaktiviert werden. Die anderen Einstellungen können nicht geändert werden."
+  },
+  "SettingsSearchEnginesActive": {
+    "description": "Category settings",
+    "message": "Aktiv"
+  },
+  "SettingsSearchEnginesActiveDesc": {
+    "description": "Category settings",
+    "message": "aktivieren, falls diese NZB-Suchmaschine verwende werden soll."
+  },
+  "SettingsSearchEnginesName": {
+    "description": "Category settings",
+    "message": "Suchmaschinen-Name"
+  },
+  "SettingsSearchEnginesNameDesc": {
+    "description": "Category settings",
+    "message": "benutzerdefinierter Name für die Suchmaschinen"
+  },
+  "SettingsSearchEnginesSearchURL": {
+    "description": "Category settings",
+    "message": "URL zur NZB-Suche"
+  },
+  "SettingsSearchEnginesSearchURLDesc": {
+    "description": "Category settings",
+    "message": "URL, die für die NZB-Datei-Suche aufgerufen werden soll. Der Suchbegriff muss mit \"%s\" ersetzt werden."
+  },
+  "SettingsSearchEnginesResponseType": {
+    "description": "Category settings",
+    "message": "Antwortart"
+  },
+  "SettingsSearchEnginesResponseTypeDesc": {
+    "description": "Category settings",
+    "message": "Art der Antwort, die von der Suchmaschine zurückgesendet wird. Kann entweder eine HTML-Seite oder ein JSON-Objekt sein."
+  },
+  "SettingsSearchEnginesJSONPath": {
+    "description": "Category settings",
+    "message": "JSON-Objektpfad"
+  },
+  "SettingsSearchEnginesJSONPathDesc": {
+    "description": "Category settings",
+    "message": "Wenn die Antwortart JSON ist, ist dies der JSON-Objektpfad für die NZB-Datei-ID (unterteilt durch Punkte). Beispiel: { results: [ { nzbid: 123456 }, ... ], ... } => \"results.0.nzbid\""
+  },
+  "SettingsSearchEnginesRegex": {
+    "description": "Category settings",
+    "message": "Regex-Ausdruck"
+  },
+  "SettingsSearchEnginesRegexDesc": {
+    "description": "Category settings",
+    "message": "Wenn die Antwortart HTML ist, ist dies der Regex-Ausdruck, mit dem auf der HTML-Ergebnisseite nach der NZB-Datei-ID gesucht werden soll. Die NZB-Datei-ID muss sich in einer Erfassungsgruppe \"()\" befinden."
+  },
+  "SettingsSearchEnginesRegexGroup": {
+    "description": "Category settings",
+    "message": "Gruppen-Nr."
+  },
+  "SettingsSearchEnginesRegexGroupDesc": {
+    "description": "Category settings",
+    "message": "Nummer der Erfassungsgruppe im Regex-Ausdruck, die die NZB-Datei-ID enthält. Kann leer gelassen werden, wenn die Antwortart JSON ist."
+  },
+  "SettingsSearchEnginesDownloadURL": {
+    "description": "Category settings",
+    "message": "URL für den NZB-Download"
+  },
+  "SettingsSearchEnginesDownloadURLDesc": {
+    "description": "Category settings",
+    "message": "URL, die für den NZB-Datei Download aufgerufen werden soll. Die NZB-Datei-ID muss mit \"%s\" ersetzt werden."
+  },
+  "SettingsSearchEnginesCustomTitle": {
+    "description": "Category settings",
+    "message": "Benutzerdefinierte Suchmaschinen"
+  },
+  "SettingsSearchEnginesCustomDesc": {
+    "description": "Category settings",
+    "message": "Zur Einrichtung benutzerdefinierter Suchmaschinen."
+  },
+  "SettingsInterceptionTitle": {
+    "description": "Category settings",
+    "message": "Abfangen von NZB-Datei"
+  },
+  "SettingsInterception": {
+    "description": "Category settings",
+    "message": "den Download von NZB-Dateien abfangen"
+  },
+  "SettingsInterceptionPrompt": {
+    "description": "Category settings",
+    "message": "Popup-Fenster anzeigen, um die Titel- und Passwortinformationen anzupassen."
+  },
+  "SettingsInterceptionPromptDesc": {
+    "description": "Category settings",
+    "message": "Falls aktiviert, erscheint für jede abgefangene NZB-Datei ein Popup-Fenster, um die Titel- und Passwortinformationen zu überprüfen und zu bearbeiten, bevor sie an das NZB-Datei Ziel gesendet werden.<br />Andernfalls, wird die NZB-Datei direkt an das NZB-Datei Ziel gesendet. Dabei wird der Namen der heruntergeladenen NZB-Datei verwendet um den Titel und ggf. das Passwort zu bestimmen."
+  },
+  "SettingsInterceptionDefaultDomains": {
+    "description": "Category settings",
+    "message": "Standard-Domänen"
+  },
+  "SettingsInterceptionDefaultDomainsDesc": {
+    "description": "Category settings",
+    "message": "Standard-Domänen, bei der Download von NZB-Dateien abgefangen wird.\nDomänen, die nicht genutzen werden sollen, können deaktiviert werden. Die anderen Einstellungen können nicht geändert werden."
+  },
+  "SettingsInterceptionCustomDomains": {
+    "description": "Category settings",
+    "message": "Benutzerdefinierte Domänen"
+  },
+  "SettingsInterceptionCustomDomainsDesc": {
+    "description": "Category settings",
+    "message": "Zur Einrichtung benutzerdefinierter Domänen auf denen der Download von NZB-Dateien abgefangen wird."
+  },
+  "SettingsInterceptionActive": {
+    "description": "Category settings",
+    "message": "Aktiv"
+  },
+  "SettingsInterceptionActiveDesc": {
+    "description": "Category settings",
+    "message": "aktivieren, wenn NZB-Datei Downloads auf dieser Domain abgefangen werden sollen."
+  },
+  "SettingsInterceptionDomain": {
+    "description": "Category settings",
+    "message": "Domäne"
+  },
+  "SettingsInterceptionDomainDesc": {
+    "description": "Category settings",
+    "message": "Basisdomäne, auf welcher NZB-Datei Downloads abgefangen werden sollen. ACHTUNG: nur die Basisdomain ohne Subdomain hinzufügen (z.B. ohne \"www\")."
+  },
+  "SettingsInterceptionFormDataHandling": {
+    "description": "Category settings",
+    "message": "Handhabung von Formular-Daten"
+  },
+  "SettingsInterceptionFormDataHandlingDesc": {
+    "description": "Category settings",
+    "message": "definiert, wie POST Formular-Daten für diese Domäne gehandhabt werden sollen.<br />Wenn die Standardeinstellung zu ständigen Fehlermeldungen über ungültige oder leere NZB-Dateien führt, eine der anderen Optionen wählen."
+  },
+  "SettingsInterceptionFormDataHandlingPOST": {
+    "description": "Category settings",
+    "message": "Formular-Daten als POST-Anfrage senden (Standard)"
+  },
+  "SettingsInterceptionFormDataHandlingGET": {
+    "description": "Category settings",
+    "message": "Formular-Daten als GET-Anfrage senden"
+  },
+  "SettingsInterceptionFormDataHandlingString": {
+    "description": "Category settings",
+    "message": "Formular-Daten als Zeichenkette senden"
+  },
+  "NotificationFaildToINitialize": {
+    "description": "Notification text",
+    "message": "Das Skript kann nicht initialisiert werden!"
+  },
+  "NotificationRestartBrowser": {
+    "description": "Notification text",
+    "message": "Bitte den Browser neu starten."
+  },
+  "NotificationRightClickWrongStart": {
+    "description": "Notification text",
+    "message": "NZBDonkey wurde mit einem Rechtsklick gestartet, aber weder auf einen Link noch auf eine Textauswahl."
+  },
+  "NotificationNoSupportForCategories": {
+    "description": "Notification text",
+    "message": "Dieses NZB-Datei Ziel unterstützt keine Kategorien."
+  },
+  "NotificationSettingsNotLoaded": {
+    "description": "Notification text",
+    "message": "Die Einstellungen konnten nicht geladen werden."
+  },
+  "NotificationSearchingFor": {
+    "description": "Notification text",
+    "placeholders": {
+      "NZBFILE": {
+        "content": "$1",
+        "example": "file.nzb"
+      }
+    },
+    "message": "Die Suche nach $NZBFILE$ wird gestartet."
+  },
+  "NotificationInterceptingDownload": {
+    "description": "Notification text",
+    "placeholders": {
+      "NZBFILETITLE": {
+        "content": "$1",
+        "example": "title"
+      },
+      "ORIGIN": {
+        "content": "$2",
+        "example": "nzbindex.com"
+      }
+    },
+    "message": "Der Download von $NZBFILETITLE$.nzb von $ORIGIN$ wird übernommen"
+  },
+  "NotificationStartingDownload": {
+    "description": "Notification text",
+    "placeholders": {
+      "NZBFILE": {
+        "content": "$1",
+        "example": "file.nzb"
+      }
+    },
+    "message": "Die NZB-Datei \"$NZBFILE$\" wird im Download-Ordner gespeichert."
+  },
+  "StatusSearchingForNZB": {
+    "description": "Status text",
+    "message": "Suche nach der NZB-Datei"
+  },
+  "StatusNZBFetched": {
+    "description": "Status text",
+    "message": "NZB-Datei gefunden - Datei wird verarbeitet"
+  },
+  "StatusPushingToTarget": {
+    "description": "Status text",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGET"
+      }
+    },
+    "message": "Die NZB-Datei wird an $TARGET$ gesendet"
+  },
+  "StatusPushedToTarget": {
+    "description": "Status text",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGET"
+      }
+    },
+    "message": "Erfolgreich an $TARGET$ gesendet"
+  },
+  "StatusDownloading": {
+    "description": "Status text",
+    "message": "Wird im Download-Ordner gespeichert"
+  },
+  "StatusDownloaded": {
+    "description": "Status text",
+    "message": "Erfolgreich im Download-Ordner gespeichert"
+  },
+  "OriginInterception": {
+    "description": "Status text",
+    "placeholders": {
+      "ORIGIN": {
+        "content": "$1",
+        "example": "nzbindex.com"
+      }
+    },
+    "message": "NZB Download-Überwachung auf $ORIGIN$"
+  },
+  "OriginNZBSearch": {
+    "description": "Status text",
+    "placeholders": {
+      "ORIGIN": {
+        "content": "$1",
+        "example": "nzbindex.com"
+      }
+    },
+    "message": "NZB-Datei-Suche auf $ORIGIN$"
+  },
+  "ErrorMsgNoHeader": {
+    "description": "Error text",
+    "message": "es wurden keine Header-Information angegeben"
+  },
+  "ErrorInvalidNZBlnkMissingHeader": {
+    "description": "Error text",
+    "message": "dem NZBlnk-Link fehlt der Header-Parameter"
+  },
+  "ErrorInvalidNZBlnkNoParameters": {
+    "description": "Error text",
+    "message": "der NZBlnk-Link enthält keine Parameter"
+  },
+  "ErrorNoNZBlnk": {
+    "description": "Error text",
+    "message": "das ist kein NZBlnk-Link"
+  },
+  "ErrorNoUsableNZBFound": {
+    "description": "Error text",
+    "message": "es wurde keine verwertbare NZB-Datei gefunden"
+  },
+  "ErrorWhileConnectinToTarget": {
+    "description": "Error text",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGET"
+      }
+    },
+    "message": "Bei der Verbindung mit $TARGET$ ist ein Fehler aufgetreten"
+  },
+  "ErrorWhilePushingToTarget": {
+    "description": "Error text",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGET"
+      }
+    },
+    "message": "Bei Übertragung der NZB-Datei an $TARGET$ ist ein Fehler aufgetreten"
+  },
+  "SuccessWhileConnectinToTarget": {
+    "description": "Success text",
+    "placeholders": {
+      "TARGET": {
+        "content": "$1",
+        "example": "NZBGET"
+      }
+    },
+    "message": "Die Verbindung mit $TARGET$ war erfolgreich!"
+  },
+  "SuccessWhilePushingToTarget": {
+    "description": "Success text",
+    "placeholders": {
+      "NZBFILETITLE": {
+        "content": "$1",
+        "example": "title"
+      },
+      "TARGET": {
+        "content": "$2",
+        "example": "NZBGET"
+      }
+    },
+    "message": "$NZBFILETITLE$.nzb wurde erfolgreich an $TARGET$ übertragen!"
+  },
+  "SuccessSavingNZBFile": {
+    "description": "Success text",
+    "placeholders": {
+      "NZBFILE": {
+        "content": "$1",
+        "example": "title.nzb"
+      }
+    },
+    "message": "Die NZB-Datei \"$NZBFILE$\" wurde erfolgreich im Download-Ordner gespeichert!"
+  },
+  "ErrorSavingNZBFile": {
+    "description": "Error text",
+    "placeholders": {
+      "NZBFILE": {
+        "content": "$1",
+        "example": "title.nzb"
+      }
+    },
+    "message": "Die NZB-Datei \"$NZBFILE$\" konnte nicht im Download-Ordner gespeichert werden!"
+  },
+  "DownloadCancelled": {
+    "description": "Download aborted message",
+    "placeholders": {
+      "NZBFILE": {
+        "content": "$1",
+        "example": "title.nzb"
+      }
+    },
+    "message": "Das Speichern der NZB-Datei \"$NZBFILE$\" wurde abgebrochen!"
+  },
+  "PremiumizePremiumStatus": {
+    "description": "Premiumize text",
+    "message": "Premium-Status"
+  },
+  "PremiumizePremiumStatusValidTill": {
+    "description": "Premiumize text",
+    "message": "gültig bis"
+  },
+  "PremiumizePremiumStatusInactive": {
+    "description": "Premiumize text",
+    "message": "inaktiv"
+  },
+  "PremiumizePremiumFairUsePoints": {
+    "description": "Premiumize text",
+    "message": "Verfügbare Fair-Use-Punkte"
+  },
+  "DownloadPasswordSaveWarning": {
+    "description": "Warning of invalid characters in password",
+    "message": "Das Passwort enthält ungültige Zeichen und wurde nicht in den Dateinamen aufgenommen."
+  },
+  "InterceptionCancelled": {
+    "description": "Download aborted message",
+    "message": "Die Bearbeitung wurde abgebrochen!"
+  },
+  "NZBFileNotValid": {
+    "description": "",
+    "message": "keine gültige NZB-Datei!"
+  },
+  "NZBFileNoFiles": {
+    "description": "",
+    "message": "Die NZB-Datei enthält keine Datei-Informationen!"
+  },
+  "NZBFileIncomplete": {
+    "description": "",
+    "message": "Diese NZB-Datei ist unvollständig mit"
+  },
+  "NZBFileMissingFiles": {
+    "description": "",
+    "message": "fehlenden Dateien"
+  },
+  "NZBFileMissingSegments": {
+    "description": "",
+    "message": "fehlenden Segmenten"
+  },
+  "and": {
+    "description": "",
+    "message": "und"
+  },
+  "ServerErrorCode": {
+    "description": "",
+    "placeholders": {
+      "CODE": {
+        "content": "$1",
+        "example": "404"
+      }
+    },
+    "message": "Der Server antwortete mit dem Fehler-Code \"$CODE$\""
+  },
+  "ServerErrorUnknown": {
+    "description": "",
+    "message": "unbekannter Netzwerkfehler"
+  },
+  "ServerErrorTimeOut": {
+    "description": "",
+    "message": "der Server hat nicht rechtzeitig geantwortet"
+  }
+}

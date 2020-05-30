@@ -1,0 +1,39 @@
+{
+  "name": "nzbdonkey",
+  "version": "0.8.0",
+  "description": "The ultimate NZB file downloader addon for Chrome and Firefox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NZB",
+    "Chrome",
+    "Firefox",
+    "addon",
+    "SABnzbd",
+    "NZBGet"
+  ],
+  "author": "Tensai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tensai75/NZBDonkey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tensai75/NZBDonkey/issues"
+  },
+  "homepage": "https://github.com/Tensai75/NZBDonkey#readme",
+  "devDependencies": {
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.0",
+    "delete": "^1.1.0",
+    "esmify": "^2.1.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-json-editor": "^2.5.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {}
+}

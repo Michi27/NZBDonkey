@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/options.css" />
+    <title data-message="extName"></title>
+</head>
+<body class="flex_container flex_column px-2 pt-2 pb-2">
+<div class="container-fluid flex_container flex_column flex_max border border-primary rounded">
+    <div class="row flex_min py-2 bg-primary">
+        <div class="col text-white">
+            <img src="/icons/NZBDonkey_32.png" class="img-fluid float-right"/>
+            <h4 class=" m-0" id="categorySelection" data-message="categorySelection"></h4>
+        </div>
+    </div>    
+    <div class="row flex_min pt-3">
+        <div class="col" id="categorySelectionMessage" data-message="categorySelectionMessage">
+        </div>
+    </div>
+    <div class="row flex_min py-2">
+        <h5 class="col m-0" id="categorySelectionNZBTitle">
+        </h5>
+    </div>  
+    <div class="row flex_max scroll py-2">
+        <div id="categorySelectionCategoryButtons" class="col">
+        </div>
+    </div>    
+    <div class="row flex_min border-top border-primary py-3 mt-3">
+        <div class="col text-right">
+            <button id="cancel-button" class="btn btn-outline-primary" value="false" data-message="cancel"></button>
+        </div>
+    </div>
+</div>
+<!-- JavaScript -->
+<script src="/js/include/jquery.js"></script>
+<script src="/js/include/bootstrap.js"></script>
+<script src="/js/popups/categoryselection.js"></script>
+</body>
+</html>
