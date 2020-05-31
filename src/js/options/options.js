@@ -63,7 +63,7 @@ $(document).ready(function() {
         setAdvancedSettingsSwitchHandler();
         setTestButtonHandler();
         setResetButtonHandler();
-        setCatregoryButtonHandler();
+        setCategoryButtonHandler();
         setNavLinkHandler();
         setNZBTargetChangeHandler();
         // Set the correct NZBTarget link
@@ -376,7 +376,7 @@ function setResetButtonHandler() {
     });
 }
 
-function setCatregoryButtonHandler() {
+function setCategoryButtonHandler() {
     $("#category-button").click(function() {
         let button = $(this);
         button.prop("disabled", true);

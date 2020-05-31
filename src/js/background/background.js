@@ -13,6 +13,9 @@ window.addEventListener("error", function(e) {
   errorHandler(e);
 });
 
+// define global DEBUG variable for debugging purpose
+var DEBUG = true;
+
 // define global nzbDonkey variable for the nzbDonkey context menu ID
 const contextMenuID = "NZBDonkey";
 
@@ -176,6 +179,9 @@ async function loadSettings() {
 
 // function to initialize the script and the event listeners
 function initializeScript() {
+
+  // setting the DEBUG variable
+  DEBUG = settings.general.debug;
 
   // set "agreed" cookie for nzbindex.com
   browser.cookies.set({
